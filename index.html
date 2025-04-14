@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" crossorigin href="/autorent/assets/index-BDezbPmb.css">
+  </head>
+  <body class="bg-[#f3f3f3]">
+    <!--#region wrapper-->
+    <div class="w-[full] desktop:h-[683px] mobile:h-[100px]">
+      <!--#region top-page-->
+      <div
+        class="w-[full] desktop:h-[683px] mobile:h-[250px] bg-[url(/src/images/image-2.png)] bg-center bg-cover"
+      >
+        <!--#region menu-->
+        <div
+          class="desktop:w-[1224px] mobile:w-[85%] desktop:h-[96px] mobile:h-[60px] mx-auto bg-[#ffff] rounded-bl-[16px] rounded-br-[16px] flex justify-between items-center px-[32px]"
+        >
+          <div class="desktop:w-[151.28px] desktop:h-[59px] mobile:w-[100px]">
+            <img src="data:image/png;base64,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" alt="" />
+          </div>
+          <label for="hamburger-menu-open" class="w-[30px] h-[30px] bg-[#ebeaea] rounded-[8px] p-[3px] flex flex-col items-center justify-center gap-y-[4px] cursor-pointer desktop:hidden  ">
+            <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
+            <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
+            <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
+           </label>
+          <input type="radio" name="hamburger-menu" id="hamburger-menu-open" class="hidden">
+          
+        
+           <input type="radio" name="hamburger-menu" id="hamburger-menu-close" class="hidden">
+           <div class="w-[230px] h-full z-2 absolute top-0 right-0 bg-[#f4f4f4] hidden hamburger space-y-[50px] m-auto pt-[90px]">
+            <label for="hamburger-menu-close" class="w-[20px] h-[20px] cursor-pointer">
+              <img src="data:image/svg+xml,%3csvg%20width='800px'%20height='800px'%20viewBox='0%200%2025%2025'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%20sketch:type='MSPage'%3e%3cg%20id='Icon-Set'%20sketch:type='MSLayerGroup'%20transform='translate(-467.000000,%20-1039.000000)'%20fill='%23000000'%3e%3cpath%20d='M489.396,1061.4%20C488.614,1062.18%20487.347,1062.18%20486.564,1061.4%20L479.484,1054.32%20L472.404,1061.4%20C471.622,1062.18%20470.354,1062.18%20469.572,1061.4%20C468.79,1060.61%20468.79,1059.35%20469.572,1058.56%20L476.652,1051.48%20L469.572,1044.4%20C468.79,1043.62%20468.79,1042.35%20469.572,1041.57%20C470.354,1040.79%20471.622,1040.79%20472.404,1041.57%20L479.484,1048.65%20L486.564,1041.57%20C487.347,1040.79%20488.614,1040.79%20489.396,1041.57%20C490.179,1042.35%20490.179,1043.62%20489.396,1044.4%20L482.316,1051.48%20L489.396,1058.56%20C490.179,1059.35%20490.179,1060.61%20489.396,1061.4%20L489.396,1061.4%20Z%20M485.148,1051.48%20L490.813,1045.82%20C492.376,1044.26%20492.376,1041.72%20490.813,1040.16%20C489.248,1038.59%20486.712,1038.59%20485.148,1040.16%20L479.484,1045.82%20L473.82,1040.16%20C472.257,1038.59%20469.721,1038.59%20468.156,1040.16%20C466.593,1041.72%20466.593,1044.26%20468.156,1045.82%20L473.82,1051.48%20L468.156,1057.15%20C466.593,1058.71%20466.593,1061.25%20468.156,1062.81%20C469.721,1064.38%20472.257,1064.38%20473.82,1062.81%20L479.484,1057.15%20L485.148,1062.81%20C486.712,1064.38%20489.248,1064.38%20490.813,1062.81%20C492.376,1061.25%20492.376,1058.71%20490.813,1057.15%20L485.148,1051.48%20L485.148,1051.48%20Z'%20id='cross'%20sketch:type='MSShapeGroup'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="" class="w-[20px] h-[20px] mb-[60px] mr-[180px]">
+              </label>
+            <a href="#" class="block font-[estedad-medium] text-[#2f2f2f] text-[12px] text-center">رزرو خودرو</a>
+            <a href="#" class="block font-[estedad-medium] text-[#2f2f2f] text-[12px] text-center">خدمات ما</a>
+            <a href="#" class="block font-[estedad-medium] text-[#2f2f2f] text-[12px] text-center">بلاگ</a>
+            <a href="#" class="block font-[estedad-medium] text-[#2f2f2f] text-[12px] text-center">درباه ما</a>
+            <a href="#" class="block font-[estedad-medium] text-[#2f2f2f] text-[12px] text-center">تماس با ما</a>
+            </div>
+
+          <div class="desktop:w-[507px] desktop:h-[28px] desktop:flex desktop:justify-between
+          mobile:hidden">
+            <div>
+              <a href="./pdp.html" class="w-fit block font-[estedad-medium] text-[16px]"
+                >رزرو خودرو</a
+              >
+            </div>
+            <div>
+              <a href="#" class="w-fit block font-[estedad-medium] text-[16px]"
+                >خدمات ما</a
+              >
+            </div>
+            <div>
+              <a href="#" class="w-fit block font-[estedad-medium] text-[16px]"
+                >بلاگ</a
+              >
+            </div>
+            <div>
+              <a href="#" class="w-fit block font-[estedad-medium] text-[16px]"
+                >درباره ما</a
+              >
+            </div>
+            <div>
+              <a href="#" class="w-fit block font-[estedad-medium] text-[16px]"
+                >تماس با ما</a
+              >
+            </div>
+            <div>
+              <a href="#" class="w-fit block font-[estedad-medium] text-[16px]"
+                ><img src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M11.7589%203.53711C7.68521%203.53711%204.38281%206.8395%204.38281%2010.9132C4.38281%2014.9869%207.68521%2018.2893%2011.7589%2018.2893C15.8326%2018.2893%2019.135%2014.9869%2019.135%2010.9132C19.135%206.8395%2015.8326%203.53711%2011.7589%203.53711ZM2.88281%2010.9132C2.88281%206.01108%206.85678%202.03711%2011.7589%202.03711C16.6611%202.03711%2020.635%206.01108%2020.635%2010.9132C20.635%2015.8153%2016.6611%2019.7893%2011.7589%2019.7893C6.85678%2019.7893%202.88281%2015.8153%202.88281%2010.9132Z'%20fill='%235C5F61'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M20.0873%2020.6022L16.9412%2017.4564C16.6483%2017.1635%2016.6483%2016.6887%2016.9412%2016.3957C17.234%2016.1028%2017.7089%2016.1028%2018.0018%2016.3957L21.148%2019.5415C21.4409%2019.8344%2021.4409%2020.3093%2021.148%2020.6022C20.8551%2020.8951%2020.3803%2020.8951%2020.0873%2020.6022Z'%20fill='%235C5F61'/%3e%3c/svg%3e" alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            class="desktop:w-[122px] h-[40px] mobile:w-[100px] bg-[#194BF0] rounded-[8px] flex items-center justify-center"
+          >
+            <a
+              href="./login.html"
+              class="font-[estedad-medium] text-[16px] text-[#FFFFFF]"
+            >
+              ورود / ثبت‌نام</a
+            >
+          </div>
+        </div>
+        <!--#endregion-->
+
+        <!--#region slogan-->
+        <div class="w-[full] desktop:h-[479px] mobile:h-[600x]">
+          <img
+            src="/autorent/assets/image-3-jfgt41rB.png"
+            alt=""
+            class="block scale-[1.06] mt-[32px] pr-[35px] mobile:hidden desktop:block"
+          />
+          <h1
+            class="w-[335px] text-[#FDB713] desktop:text-[44px] font-[estedad-semibold] absolute desktop:top-[199px] desktop:left-[1050px] mobile:top-[90px] mobile:left-[40px]"
+          >
+            اُتـــو رِنت؛ سریع، آسان و به صرفه
+          </h1>
+          <p
+            class="desktop:text-[20px] mobile:text-[12px]  text-[#ffff] font-[estedad-regular] absolute desktop:top-[330px] mobile:top-[120px] desktop:right-[150px] mobile:right-[15px] py-[10px]"
+          >
+            سرویس دهنده رزرو خودرو در ایران در کمترین زمان ممکن!
+          </p>
+        
+            <a
+              href="#"
+              class="desktop:w-[186px] desktop:h-[48px] mobile:w-[110px] mobile:h-[40px] flex justify-center items-center gap-[5px] bg-[#FDB713] rounded-[7px] absolute desktop:top-[400px] desktop:right-[150px] mobile:top-[160px] mobile:right-[5px]"
+              ><img
+                src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.9994%2011.7501H3.99937C3.76937%2011.7501%203.55937%2011.6501%203.41937%2011.4701C3.27937%2011.3001%203.21937%2011.0601%203.26937%2010.8401L4.39937%205.44008C4.76937%203.69008%205.51937%202.08008%208.48937%202.08008H15.5194C18.4894%202.08008%2019.2394%203.70008%2019.6094%205.44008L20.7394%2010.8501C20.7894%2011.0701%2020.7294%2011.3001%2020.5894%2011.4801C20.4394%2011.6501%2020.2294%2011.7501%2019.9994%2011.7501ZM4.91937%2010.2501H19.0694L18.1294%205.75008C17.8494%204.44008%2017.5194%203.58008%2015.5094%203.58008H8.48937C6.47937%203.58008%206.14937%204.44008%205.86937%205.75008L4.91937%2010.2501Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M19.9596%2022.75H18.0796C16.4596%2022.75%2016.1496%2021.82%2015.9496%2021.21L15.7496%2020.61C15.4896%2019.85%2015.4596%2019.75%2014.5596%2019.75H9.4396C8.5396%2019.75%208.4796%2019.92%208.2496%2020.61L8.0496%2021.21C7.8396%2021.83%207.5396%2022.75%205.9196%2022.75H4.0396C3.2496%2022.75%202.4896%2022.42%201.9596%2021.84C1.4396%2021.27%201.1896%2020.51%201.2596%2019.75L1.8196%2013.66C1.9696%2012.01%202.4096%2010.25%205.6196%2010.25H18.3796C21.5896%2010.25%2022.0196%2012.01%2022.1796%2013.66L22.7396%2019.75C22.8096%2020.51%2022.5596%2021.27%2022.0396%2021.84C21.5096%2022.42%2020.7496%2022.75%2019.9596%2022.75ZM9.4396%2018.25H14.5596C16.3796%2018.25%2016.8096%2019.06%2017.1696%2020.12L17.3796%2020.74C17.5496%2021.25%2017.5496%2021.26%2018.0896%2021.26H19.9696C20.3396%2021.26%2020.6896%2021.11%2020.9396%2020.84C21.1796%2020.58%2021.2896%2020.25%2021.2596%2019.9L20.6996%2013.81C20.5696%2012.46%2020.4096%2011.76%2018.3996%2011.76H5.6196C3.5996%2011.76%203.4396%2012.46%203.3196%2013.81L2.7596%2019.9C2.7296%2020.25%202.8396%2020.58%203.0796%2020.84C3.3196%2021.11%203.6796%2021.26%204.0496%2021.26H5.9296C6.4696%2021.26%206.4696%2021.25%206.6396%2020.75L6.8396%2020.14C7.0896%2019.34%207.4596%2018.25%209.4396%2018.25Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M4%208.75H3C2.59%208.75%202.25%208.41%202.25%208C2.25%207.59%202.59%207.25%203%207.25H4C4.41%207.25%204.75%207.59%204.75%208C4.75%208.41%204.41%208.75%204%208.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M21%208.75H20C19.59%208.75%2019.25%208.41%2019.25%208C19.25%207.59%2019.59%207.25%2020%207.25H21C21.41%207.25%2021.75%207.59%2021.75%208C21.75%208.41%2021.41%208.75%2021%208.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M12%205.75C11.59%205.75%2011.25%205.41%2011.25%205V3C11.25%202.59%2011.59%202.25%2012%202.25C12.41%202.25%2012.75%202.59%2012.75%203V5C12.75%205.41%2012.41%205.75%2012%205.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M13.5%205.75H10.5C10.09%205.75%209.75%205.41%209.75%205C9.75%204.59%2010.09%204.25%2010.5%204.25H13.5C13.91%204.25%2014.25%204.59%2014.25%205C14.25%205.41%2013.91%205.75%2013.5%205.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M9%2015.75H6C5.59%2015.75%205.25%2015.41%205.25%2015C5.25%2014.59%205.59%2014.25%206%2014.25H9C9.41%2014.25%209.75%2014.59%209.75%2015C9.75%2015.41%209.41%2015.75%209%2015.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M18%2015.75H15C14.59%2015.75%2014.25%2015.41%2014.25%2015C14.25%2014.59%2014.59%2014.25%2015%2014.25H18C18.41%2014.25%2018.75%2014.59%2018.75%2015C18.75%2015.41%2018.41%2015.75%2018%2015.75Z'%20fill='%230C0C0C'/%3e%3c/svg%3e"
+                alt=""
+                class="desktop:w-[24px] desktop:h-[24px] mobile:w-[20px] mobile:h-[20px]"
+              />
+              <p class="font-[estedad-regular] desktop:text-[16px] mobile:text-[12px]">
+                رزرو آسان خودرو
+              </p></a 
+            >
+            <a
+              href="#"
+              class="desktop:w-[151px] mobile:w-[110px] desktop:h-[48px] mobile:h-[40px] flex justify-center items-center gap-[5px] border-[1px] border-[#ffff] rounded-[7px] absolute desktop:top-[400px] desktop:right-[350px]  mobile:top-[160px] mobile:right-[120px]"
+              ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFuSURBVHgBtVXLcYNADBWpwB1kOwgdhHSQdEAJvnGEDkwHpoO4A0gFJBXgGS7cTAcbKRFBw+wPiN/MGwat9AS7khbgzoh8DlprhY9X5BNSsXlEfiAvURRdYQtQOEHWekbH78RW2Ok9Xit+4uAbskAeDD4KmXJiQh4qfuaA0iRsiSk45uxzzNmxgJUQSU42h3iruNAoWSMxLda0n7ADtKV8bvVyQXHm1BFMPu++cxFb9SiNRzYqh3jHVOD/C8JRGunL2r3iIqabKipiw8+eYVe+LMXxUQ/DoLIs++z7fjSIvTVNMy5sf3oP4MYogujXYUFa9/cKOla2Ctq4RTRKLtIwHfIhIImvipTpkJWvyUSZKnAnSI0VyY1204Hzx5Gg08tG44VEu2ZJmHjOGrHNYZolYaPXLF74HKs1Sbh8p/ujComR86TjQ1MW4ZzPjVDCGujf8V3rGa2er8xO2Ok9semsufSfYe7aK/IL9lz6/4VvAD1J5uqYGaoAAAAASUVORK5CYII=" alt="" />
+              <p class="font-[estedad-regular] desktop:text-[16px] mobile:text-[12px] text-[#ffff]">
+                تماس با ما
+              </p></a
+            >
+          
+        </div>
+        <!--#endregion-->
+        <!--#region bottom-->
+        <div
+          class="desktop:w-[1223px] mobile:w-[90%] desktop:h-[300px] mobile:h-[390px] bg-[#ffff] mx-auto rounded-[16px] desktop:p-[24px] mobile:pt-[15px]  mobile:relative mobile:mt-[160px] desktop:mt-0"
+        >
+          <div class="desktop:w-[1175px] mobile:w-full h-[100px] flex flex-wrap justify-between mx-auto">
+            <div class="w-[440px] desktop:h-[px] mobile:h-auto flex flex-wrap justify-center gap-[10px]">
+              <div
+                class="w-[135px] mobile:h-[40px] border-[1px] border-[#D7D7D7] rounded-[20px] bg-[#194BF0] text-[#ffff] flex justify-center items-center"
+              >
+                <a
+                  href="#"
+                  class="font-[estedad-semibold] text-[14px]"
+                  >اجاره خودرو با راننده</a
+                >
+              </div>
+              <div
+                class="w-[142px]  mobile:h-[40px] border-[1px] border-[#D7D7D7] rounded-[20px] flex justify-center items-center"
+              >
+                <a href="#" class="font-[estedad-semibold] text-[14px]"
+                  >اجاره خودرو بی راننده</a
+                >
+              </div>
+              <div
+                class="w-[137px]  mobile:h-[40px] border-[1px] border-[#D7D7D7] rounded-[20px] flex justify-center items-center"
+              >
+                <a href="#" class="font-[estedad-semibold] text-[14px]"
+                  >اجاره ماشین عروس</a
+                >
+              </div>
+            </div>
+            <div class="w-[195px] desktop:h-[25px]  mobile:mt-[10px]">
+              <a
+                href="#"
+                class=" block w-[100%] h-[50px] mobile:h-auto text-[14px] font-[estedad-medium] mobile:text-end text-[#194BF0]"
+                >اطلاعات بیشتر در مورد رزرو خودرو</a
+              >
+            </div>
+          </div>
+          <div
+            class="desktop:w-[1090px] mobile:w-[60%] desktop:h-auto mobile:h-[30px] desktop:flex desktop:justify-between
+            desktop:mt-[16px] mobile:mt-[40px] desktop:mb-[16px] mobile:space-y-[18px] desktop:p-0"
+          >
+            <div
+              class="w-[135px] h-[25px] flex justify-center items-center gap-[5px] "
+            >
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEmSURBVHgBpVPdjYJAEN71CCEBEq4Ceby3u6vgLOE68K4Cr4SzEkrQDsQOtAK1AnmAhAAJfh/ZJaugaJxkMrs73/zvCPEkyb5Hz/MmEF91XYcNSMoDRJymaXyJHZkXx3FCGK9wXIBfwWvFAZxF1BHTF1QbH13X/RNXiDrwDvzRMVaKHzFAxBAbgHh/UQ5mEEmWZfMhB2VZbmzb/kRJb0VRxNprJy2dlY5kEpvs+/6uuRDA2h8tiTbAjUd5ngcYU2IqLcuK8BaC2fla8crEoISkjXYjg+mtDNryHu0BsdSZ3v7xEIk7iVjatA+MMpSyYTwltvMjdVoDP3Gmut8any0TFZwAlwgTWEJuG5CU7zh/Q+6rqvrF5Pa9DjSpbZzAaKwcXN3Gp+kEOUpsfKvvEJgAAAAASUVORK5CYII="
+                alt=""
+                class="w-[16px] h-[16px]"
+              />
+              <p class="font-[estedad-regular] text-[14px]">محل تحویل خودرو</p>
+            </div>
+            <div class="w-[55%] h-auto desktop:flex desktop:justify-center desktop:items-center gap-[49px] mobile:space-y-[10px] mobile:p-[5px] mobile:mb-[0px]">
+              <div class="w-[100px] h-[25px] flex items-center gap-[8px] ">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEmSURBVHgBpVPdjYJAEN71CCEBEq4Ceby3u6vgLOE68K4Cr4SzEkrQDsQOtAK1AnmAhAAJfh/ZJaugaJxkMrs73/zvCPEkyb5Hz/MmEF91XYcNSMoDRJymaXyJHZkXx3FCGK9wXIBfwWvFAZxF1BHTF1QbH13X/RNXiDrwDvzRMVaKHzFAxBAbgHh/UQ5mEEmWZfMhB2VZbmzb/kRJb0VRxNprJy2dlY5kEpvs+/6uuRDA2h8tiTbAjUd5ngcYU2IqLcuK8BaC2fla8crEoISkjXYjg+mtDNryHu0BsdSZ3v7xEIk7iVjatA+MMpSyYTwltvMjdVoDP3Gmut8any0TFZwAlwgTWEJuG5CU7zh/Q+6rqvrF5Pa9DjSpbZzAaKwcXN3Gp+kEOUpsfKvvEJgAAAAASUVORK5CYII="
+                  alt=""
+                  class="w-[16px] h-[16px]"
+                />
+                <p class="font-[estedad-regular] text-[14px]">تاریخ تحویل</p>
+              </div>
+              <div class="w-[110px] h-[25px] flex items-center gap-[5px]">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEmSURBVHgBpVPdjYJAEN71CCEBEq4Ceby3u6vgLOE68K4Cr4SzEkrQDsQOtAK1AnmAhAAJfh/ZJaugaJxkMrs73/zvCPEkyb5Hz/MmEF91XYcNSMoDRJymaXyJHZkXx3FCGK9wXIBfwWvFAZxF1BHTF1QbH13X/RNXiDrwDvzRMVaKHzFAxBAbgHh/UQ5mEEmWZfMhB2VZbmzb/kRJb0VRxNprJy2dlY5kEpvs+/6uuRDA2h8tiTbAjUd5ngcYU2IqLcuK8BaC2fla8crEoISkjXYjg+mtDNryHu0BsdSZ3v7xEIk7iVjatA+MMpSyYTwltvMjdVoDP3Gmut8any0TFZwAlwgTWEJuG5CU7zh/Q+6rqvrF5Pa9DjSpbZzAaKwcXN3Gp+kEOUpsfKvvEJgAAAAASUVORK5CYII="
+                  alt=""
+                  class="w-[16px] h-[16px]"
+                />
+                <p class="font-[estedad-regular] text-[14px]">ساعت تحویل</p>
+              </div>
+              <div class="w-[100px] h-[25px] flex items-center gap-[5px]">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEmSURBVHgBpVPdjYJAEN71CCEBEq4Ceby3u6vgLOE68K4Cr4SzEkrQDsQOtAK1AnmAhAAJfh/ZJaugaJxkMrs73/zvCPEkyb5Hz/MmEF91XYcNSMoDRJymaXyJHZkXx3FCGK9wXIBfwWvFAZxF1BHTF1QbH13X/RNXiDrwDvzRMVaKHzFAxBAbgHh/UQ5mEEmWZfMhB2VZbmzb/kRJb0VRxNprJy2dlY5kEpvs+/6uuRDA2h8tiTbAjUd5ngcYU2IqLcuK8BaC2fla8crEoISkjXYjg+mtDNryHu0BsdSZ3v7xEIk7iVjatA+MMpSyYTwltvMjdVoDP3Gmut8any0TFZwAlwgTWEJuG5CU7zh/Q+6rqvrF5Pa9DjSpbZzAaKwcXN3Gp+kEOUpsfKvvEJgAAAAASUVORK5CYII="
+                  alt=""
+                  class="w-[16px] h-[16px]"
+                />
+                <p class="font-[estedad-regular] text-[14px]">تاریخ بازگشت</p>
+              </div>
+              <div class="w-[110px] h-[25px] flex items-center gap-[5px] mb-[7px]">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEmSURBVHgBpVPdjYJAEN71CCEBEq4Ceby3u6vgLOE68K4Cr4SzEkrQDsQOtAK1AnmAhAAJfh/ZJaugaJxkMrs73/zvCPEkyb5Hz/MmEF91XYcNSMoDRJymaXyJHZkXx3FCGK9wXIBfwWvFAZxF1BHTF1QbH13X/RNXiDrwDvzRMVaKHzFAxBAbgHh/UQ5mEEmWZfMhB2VZbmzb/kRJb0VRxNprJy2dlY5kEpvs+/6uuRDA2h8tiTbAjUd5ngcYU2IqLcuK8BaC2fla8crEoISkjXYjg+mtDNryHu0BsdSZ3v7xEIk7iVjatA+MMpSyYTwltvMjdVoDP3Gmut8any0TFZwAlwgTWEJuG5CU7zh/Q+6rqvrF5Pa9DjSpbZzAaKwcXN3Gp+kEOUpsfKvvEJgAAAAASUVORK5CYII="
+                  alt=""
+                  class="w-[16px] h-[16px]"
+                />
+                <p class="font-[estedad-regular] text-[14px]">ساعت بازگشت</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="desktop:w-[1175px] mobile:w-[50%] h-auto pr-[13.5px] desktop:border-[1px] border-[#F3F3F3] rounded-[16px] desktop:flex desktop:justify-between desktop:items-center desktop:static mobile:absolute mobile:right-[210px] mobile:top-[155px] mobile:space-y-[5px] mobile:p-[10px]"
+          >
+            <div
+              class="desktop:w-[527px] mobile:w-[145px] h-[29px] flex justify-between desktop:items-center pl-[12px] desktop:border-l-[1px] desktop:border-solid desktop: border-[#D7D7D7] "
+            >
+              <p class="font-[estedad-regular] desktop:text-[16px] mobile:text-[12px]">
+                تهران-فرودگاه امام خمینی
+              </p>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACpSURBVHgB7dKxDcMgEAXQM5ZokxEyQmaAQTxDWihyLqD2CCmzBCgrZIKkTJcR8CEZybItsGv7Nxxw9woEwJGdBRHPsDE0cxnvWSqMMVfO+d9a28DKxF6a+cTZdFanwnv/E0JUlE5K+XXOvUsYLY8QQqu1fs7AAX2tQScYju/qaXMJzWGLYA4tYTEVZEKPjYTeqbzReiIIc1gRTChjrCEofqlWKdXBkZ2nB8mIZPfVBei4AAAAAElFTkSuQmCC"
+                alt=""
+                class="w-[20px] h-[20px]"
+              />
+            </div>
+            <div
+              class="desktop:w-[135px] mobile:w-[100px] desktop:h-[31px] mobile:h-[28px] desktop:pl-[12.5px] desktop:pr-[12.5px] desktop:border-l-[1px] border-solid border-[#D7D7D7] flex justify-between items-center gap-x-[15px]"
+            >
+              <p class="text-[16px] mobile:text-end">1403/02/10</p>
+              <img
+                src="/autorent/assets/calender-Da0-lp_b.svg"
+                alt=""
+                class="w-[18px] h-[18px]"
+              />
+            </div>
+            <div
+              class="desktop:w-[135px] mobile:w-[115px] h-[31px] desktop:pl-[12.5px] desktop:pr-[12.5px] desktop:border-l-[1px] border-solid border-[#D7D7D7] flex justify-between items-center"
+            >
+              <p>07:00</p>
+              <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.0003%2018.4577C5.3348%2018.4577%201.54199%2014.6649%201.54199%209.99935C1.54199%205.33383%205.3348%201.54102%2010.0003%201.54102C14.6659%201.54102%2018.4587%205.33383%2018.4587%209.99935C18.4587%2014.6649%2014.6659%2018.4577%2010.0003%2018.4577ZM10.0003%201.79102C5.47418%201.79102%201.79199%205.47321%201.79199%209.99935C1.79199%2014.5255%205.47418%2018.2077%2010.0003%2018.2077C14.5265%2018.2077%2018.2087%2014.5255%2018.2087%209.99935C18.2087%205.47321%2014.5265%201.79102%2010.0003%201.79102Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3cpath%20d='M13.0525%2012.7668L13.0422%2012.7599L13.0314%2012.7535L10.4483%2011.2119C10.4482%2011.2119%2010.4482%2011.2118%2010.4481%2011.2118C9.95793%2010.9188%209.5752%2010.2405%209.5752%209.67448V6.25781C9.5752%206.22767%209.58748%206.19638%209.61312%206.17074C9.63877%206.1451%209.67005%206.13281%209.7002%206.13281C9.73034%206.13281%209.76162%206.1451%209.78727%206.17074C9.81291%206.19638%209.8252%206.22767%209.8252%206.25781V9.67448C9.8252%209.94284%209.92923%2010.2152%2010.0479%2010.4238C10.1656%2010.6308%2010.3463%2010.8604%2010.5795%2010.9968L13.1606%2012.5372L13.1606%2012.5372L13.1649%2012.5397C13.2136%2012.5681%2013.2424%2012.637%2013.2052%2012.7077C13.1715%2012.7571%2013.1256%2012.7745%2013.0919%2012.7745C13.0762%2012.7745%2013.0671%2012.7727%2013.0628%2012.7715C13.0591%2012.7705%2013.0563%2012.7693%2013.0525%2012.7668Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3c/svg%3e" alt="" />
+            </div>
+            <div
+              class="desktop:w-[135px] mobile:w-[115px] h-[31px] desktop:pl-[12.5px] desktop:pr-[12.5px] desktop:border-l-[1px] border-solid border-[#D7D7D7] flex justify-between items-center"
+            >
+              <p>1403/02/10</p>
+              <img src="/autorent/assets/calender-Da0-lp_b.svg" alt="" />
+            </div>
+            <div
+              class="desktop:w-[135px] mobile:w-[115px] h-[31px] desktop:pl-[12.5px] desktop:pr-[12.5px] flex justify-between items-center"
+            >
+              <p>07:00</p>
+              <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.0003%2018.4577C5.3348%2018.4577%201.54199%2014.6649%201.54199%209.99935C1.54199%205.33383%205.3348%201.54102%2010.0003%201.54102C14.6659%201.54102%2018.4587%205.33383%2018.4587%209.99935C18.4587%2014.6649%2014.6659%2018.4577%2010.0003%2018.4577ZM10.0003%201.79102C5.47418%201.79102%201.79199%205.47321%201.79199%209.99935C1.79199%2014.5255%205.47418%2018.2077%2010.0003%2018.2077C14.5265%2018.2077%2018.2087%2014.5255%2018.2087%209.99935C18.2087%205.47321%2014.5265%201.79102%2010.0003%201.79102Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3cpath%20d='M13.0525%2012.7668L13.0422%2012.7599L13.0314%2012.7535L10.4483%2011.2119C10.4482%2011.2119%2010.4482%2011.2118%2010.4481%2011.2118C9.95793%2010.9188%209.5752%2010.2405%209.5752%209.67448V6.25781C9.5752%206.22767%209.58748%206.19638%209.61312%206.17074C9.63877%206.1451%209.67005%206.13281%209.7002%206.13281C9.73034%206.13281%209.76162%206.1451%209.78727%206.17074C9.81291%206.19638%209.8252%206.22767%209.8252%206.25781V9.67448C9.8252%209.94284%209.92923%2010.2152%2010.0479%2010.4238C10.1656%2010.6308%2010.3463%2010.8604%2010.5795%2010.9968L13.1606%2012.5372L13.1606%2012.5372L13.1649%2012.5397C13.2136%2012.5681%2013.2424%2012.637%2013.2052%2012.7077C13.1715%2012.7571%2013.1256%2012.7745%2013.0919%2012.7745C13.0762%2012.7745%2013.0671%2012.7727%2013.0628%2012.7715C13.0591%2012.7705%2013.0563%2012.7693%2013.0525%2012.7668Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3c/svg%3e" alt="" />
+            </div>
+            <a href="#">
+              <div
+                class="desktop:w-[54px] desktop:h-[54px] mobile:w-[40px] mobile:h-[40px] bg-[#FDB713] rounded-[16px] flex justify-center items-center desktop:static mobile:absolute mobile:right-[90px] mobile:top-[190px]"
+              >
+                <img src="data:image/svg+xml,%3csvg%20width='25'%20height='24'%20viewBox='0%200%2025%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M11.7589%203.53711C7.68521%203.53711%204.38281%206.8395%204.38281%2010.9132C4.38281%2014.9869%207.68521%2018.2893%2011.7589%2018.2893C15.8326%2018.2893%2019.135%2014.9869%2019.135%2010.9132C19.135%206.8395%2015.8326%203.53711%2011.7589%203.53711ZM2.88281%2010.9132C2.88281%206.01108%206.85678%202.03711%2011.7589%202.03711C16.6611%202.03711%2020.635%206.01108%2020.635%2010.9132C20.635%2015.8153%2016.6611%2019.7893%2011.7589%2019.7893C6.85678%2019.7893%202.88281%2015.8153%202.88281%2010.9132Z'%20fill='%235C5F61'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M20.0873%2020.6022L16.9412%2017.4564C16.6483%2017.1635%2016.6483%2016.6887%2016.9412%2016.3957C17.234%2016.1028%2017.7089%2016.1028%2018.0018%2016.3957L21.148%2019.5415C21.4409%2019.8344%2021.4409%2020.3093%2021.148%2020.6022C20.8551%2020.8951%2020.3803%2020.8951%2020.0873%2020.6022Z'%20fill='%235C5F61'/%3e%3c/svg%3e" alt="" /></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#endregion-->
+    <!--#region brands-->
+    <div
+      class="desktop:w-[1440px] mobile:w-full mobile:p-[5px] desktop:h-[100px] mobile:h-[250px] 
+      desktop:mt-[250px] mobile:mt-[550px] mx-auto flex flex-wrap desktop:justify-around desktop:items-center mobile:justify-center items-center desktop:g-x-[56px] mobile:gap-y-[35px] opacity-[35%] "
+    >
+      <div class="w-[100px] h-[0px] flex justify-center items-center">
+        <img src="/autorent/assets/KIA%20(1)-RB5Q01G4.png" alt="" />
+      </div>
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/KIA%20(2)-Cgk_biL3.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/KIA-D0CoCJss.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/Toyota-CbaUs6j7.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/Nissan-DmlNV9i_.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/Hyundai-BcCcJxD0.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/Honda-BEsuZjov.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/Marcedes-8oCTTeTj.png" alt="" />
+      </div>
+
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/lexus-logo-_j6O10mO.png" alt="" />
+      </div>
+      <div class="w-[100px] h-[50px] flex justify-center items-center">
+        <img src="/autorent/assets/BMW-DQcl8nBX.png" alt="" />
+      </div>
+    </div>
+    <!--#endregion-->
+    <!--#region whyauto-->
+    <div
+      class="desktop:w-[1224px] mobile:w-full desktop:h-[292px] desktop:mt-[50px] mobile:mt-[80px] mx-auto rounded-[16px] desktop:bg-[url(/src/images/image-4.jpg)] bg-no-repeat bg-cover bg-center"
+    >
+      <div
+        class="desktop:w-[1224px] mobile:w-full desktop:h-[292px] rounded-[16px] absolute bg-black/70"
+      >
+        <div class="desktop:w-[845px] h-[147px] mx-auto mt-[24px] text-center">
+          <p
+            class="text-[24px] text-[#FDB713] font-[estedad-semibold] leading-[180%]"
+          >
+            چــــــرا اُتو رِنت؟
+          </p>
+          <p
+            class="text-[#FFFFFF] desktop:text-[18px] mobile:text-[12px] font-[estedad-extralight] leading-[180%]"
+          >
+            اجاره خودرو از یک شرکت اجاره خودرو با سابقه به شما کمک می‌کند تا در
+            مسافرت ها، قرار ملاقات‌ های مهم، مجالس و مراسم‌های خانوادگی ماشین
+            مناسب خود را در اختیار داشته باشید. اگر شما اصلا خودرویی در اختیار
+            ندارید یا خودروی شما مطمئن نیست، می‌توانید از سوییچ، خودروی مناسب
+            خود را کرایه کرده و با آسودگی به سفر بروید.
+          </p>
+        </div>
+        <div
+          class="desktop:w-[1224px] desktop:h-[292px] mobile:w-full mobile:h-[100px]  desktop:flex desktop:justify-center desktop:gap-x-[40px] mt-[30px] mobile:space-y-[5px]"
+        >
+          <div
+            class="w-[312px] h-[186px] bg-[#ffff] mobile:mx-auto rounded-[16px] pl-[24px] pr-[24px] pt-[16px] pb-[16px]"
+          >
+            <img src="data:image/png;base64,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" alt="" class="mx-auto mb-[8px]" />
+            <p
+              class="font-[estedad-semibold] text-[16px] text-center leading-[140%] mb-[8px]"
+            >
+              تحویل در محل
+            </p>
+            <p
+              class="font-[estedad-medium] text-[12px] text-[#757575] text-center leading-[180%]"
+            >
+              تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود.
+            </p>
+          </div>
+          <div class="w-[312px] h-[186px] bg-[#ffff] mobile:mx-auto rounded-[16px]  pl-[24px] pr-[24px] pt-[16px] pb-[16px]">
+            <img src="data:image/png;base64,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" alt="" class="mx-auto mb-[8px]" />
+            <p
+              class="font-[estedad-semibold] text-[16px] text-center leading-[140%] mb-[8px]"
+            >
+            پشتیبانی 24 ساعته
+            </p>
+            <p
+              class="font-[estedad-medium] text-[12px] text-[#757575] text-center leading-[180%]"
+            >
+              تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود.
+            </p>
+          </div>
+          <div class="w-[312px] h-[186px] bg-[#ffff] mobile:mx-auto rounded-[16px]  pl-[24px] pr-[24px] pt-[16px] pb-[16px]">
+            <img src="data:image/png;base64,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" alt="" class="mx-auto mb-[8px]" />
+            <p
+              class="font-[estedad-semibold] text-[16px] text-center leading-[140%] mb-[8px]"
+            >
+            قیمت مناسب
+            </p>
+            <p
+              class="font-[estedad-medium] text-[12px] text-[#757575] text-center leading-[180%]"
+            >
+              تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#endregion-->
+    <!--#region cars-->
+    <div class="desktop:w-[1224px] desktop:h-[144px] mobile:w-full mobile:h-[600px] mx-auto desktop:mt-[152px]
+     mobile:mt-[900px] flex flex-wrap desktop:justify-between mobile:justify-center items-center">
+      <div class="w-[239px] h-[144px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF]">
+        <p class="text-center text-[24px] font-[estedad-medium] text-[#353535]">کوپه</p>
+        <img src="/autorent/assets/image-5-BIbljYCn.png" alt="">
+        <div class="w-[208px] h-[19px] mx-auto" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAAGCAYAAAC7KLA8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgB7Ze9SgQxEMdnZjmx9kREPRVB/CisxAfQxkqr3UZ8A+3sjfgAFlr5FPZibasWCsKBhccV4nZanNzGzekeIWRyufrmB0OySXYymeRPdgECaK2xLKi0hLM0Tat6cBxjxPm0zW7j5ndLJsbgXDHvcONCc9jrHeTXzacnvxRYN3F5sk0pRbH5qvy6exCTUzcun5/QeeDOQSBONg5PLFH77jyb+IwmWHydWAoJvm4mt8dqsE8Ee4iwAIIw4hQFPiHoh3ZO543Dj6bRCSJqe4wrKHy/mp2YWvw+TRI6BkEQvHS7cNl8Gz9bO2p92u19QZnPu9frmfrS3M8dkd4AQRCCmBvr8aW2s3nSNqLq3VT034dZllFjuqNETIIQh9HK+nJHwd//VY/qhqL7i/rK1io8gyAIQ9HK9e78QX5bVotf8Hh7br98y24AAAAASUVORK5CYII=" alt="">
+        </div>
+      </div>
+      <div class="w-[239px] h-[144px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF]" >
+        <p class="text-center text-[24px] font-[estedad-medium] text-[#353535]">سدان</p>
+        <img src="/autorent/assets/image-6-BppSPKii.png" alt="">
+        <div class="w-[208px] h-[19px] mx-auto" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAAGCAYAAAC7KLA8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgB7Ze9SgQxEMdnZjmx9kREPRVB/CisxAfQxkqr3UZ8A+3sjfgAFlr5FPZibasWCsKBhccV4nZanNzGzekeIWRyufrmB0OySXYymeRPdgECaK2xLKi0hLM0Tat6cBxjxPm0zW7j5ndLJsbgXDHvcONCc9jrHeTXzacnvxRYN3F5sk0pRbH5qvy6exCTUzcun5/QeeDOQSBONg5PLFH77jyb+IwmWHydWAoJvm4mt8dqsE8Ee4iwAIIw4hQFPiHoh3ZO543Dj6bRCSJqe4wrKHy/mp2YWvw+TRI6BkEQvHS7cNl8Gz9bO2p92u19QZnPu9frmfrS3M8dkd4AQRCCmBvr8aW2s3nSNqLq3VT034dZllFjuqNETIIQh9HK+nJHwd//VY/qhqL7i/rK1io8gyAIQ9HK9e78QX5bVotf8Hh7br98y24AAAAASUVORK5CYII=" alt="">
+        </div>
+      </div>
+      <div class="w-[239px] h-[144px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF]">
+        <p class="text-center text-[24px] font-[estedad-medium] text-[#353535]">کروک</p>
+        <img src="/autorent/assets/image-7-rzhIrKZ1.png" alt="">
+        <div class="w-[208px] h-[19px] mx-auto" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAAGCAYAAAC7KLA8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgB7Ze9SgQxEMdnZjmx9kREPRVB/CisxAfQxkqr3UZ8A+3sjfgAFlr5FPZibasWCsKBhccV4nZanNzGzekeIWRyufrmB0OySXYymeRPdgECaK2xLKi0hLM0Tat6cBxjxPm0zW7j5ndLJsbgXDHvcONCc9jrHeTXzacnvxRYN3F5sk0pRbH5qvy6exCTUzcun5/QeeDOQSBONg5PLFH77jyb+IwmWHydWAoJvm4mt8dqsE8Ee4iwAIIw4hQFPiHoh3ZO543Dj6bRCSJqe4wrKHy/mp2YWvw+TRI6BkEQvHS7cNl8Gz9bO2p92u19QZnPu9frmfrS3M8dkd4AQRCCmBvr8aW2s3nSNqLq3VT034dZllFjuqNETIIQh9HK+nJHwd//VY/qhqL7i/rK1io8gyAIQ9HK9e78QX5bVotf8Hh7br98y24AAAAASUVORK5CYII=" alt="">
+        </div>
+      </div>
+      <div class="w-[239px] h-[144px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF]">
+        <p class="text-center text-[24px] font-[estedad-medium] text-[#353535]">شاسی بلند</p>
+        <img src="/autorent/assets/image-9-DJ5tq7Ig.png" alt="">
+        <div class="w-[208px] h-[19px] mx-auto" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAAGCAYAAAC7KLA8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgB7Ze9SgQxEMdnZjmx9kREPRVB/CisxAfQxkqr3UZ8A+3sjfgAFlr5FPZibasWCsKBhccV4nZanNzGzekeIWRyufrmB0OySXYymeRPdgECaK2xLKi0hLM0Tat6cBxjxPm0zW7j5ndLJsbgXDHvcONCc9jrHeTXzacnvxRYN3F5sk0pRbH5qvy6exCTUzcun5/QeeDOQSBONg5PLFH77jyb+IwmWHydWAoJvm4mt8dqsE8Ee4iwAIIw4hQFPiHoh3ZO543Dj6bRCSJqe4wrKHy/mp2YWvw+TRI6BkEQvHS7cNl8Gz9bO2p92u19QZnPu9frmfrS3M8dkd4AQRCCmBvr8aW2s3nSNqLq3VT034dZllFjuqNETIIQh9HK+nJHwd//VY/qhqL7i/rK1io8gyAIQ9HK9e78QX5bVotf8Hh7br98y24AAAAASUVORK5CYII=" alt="">
+        </div>
+      </div>
+      <div class="w-[239px] h-[144px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF]">
+        <p class="text-center text-[24px] font-[estedad-medium] text-[#353535]">اسپرت</p>
+        <img src="/autorent/assets/image-8-CcEfNrUC.png" alt="">
+        <div class="w-[208px] h-[19px] mx-auto" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAAAGCAYAAAC7KLA8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgB7Ze9SgQxEMdnZjmx9kREPRVB/CisxAfQxkqr3UZ8A+3sjfgAFlr5FPZibasWCsKBhccV4nZanNzGzekeIWRyufrmB0OySXYymeRPdgECaK2xLKi0hLM0Tat6cBxjxPm0zW7j5ndLJsbgXDHvcONCc9jrHeTXzacnvxRYN3F5sk0pRbH5qvy6exCTUzcun5/QeeDOQSBONg5PLFH77jyb+IwmWHydWAoJvm4mt8dqsE8Ee4iwAIIw4hQFPiHoh3ZO543Dj6bRCSJqe4wrKHy/mp2YWvw+TRI6BkEQvHS7cNl8Gz9bO2p92u19QZnPu9frmfrS3M8dkd4AQRCCmBvr8aW2s3nSNqLq3VT034dZllFjuqNETIIQh9HK+nJHwd//VY/qhqL7i/rK1io8gyAIQ9HK9e78QX5bVotf8Hh7br98y24AAAAASUVORK5CYII=" alt="">
+        </div>
+      </div>
+    </div>
+    <!--#endregion-->
+    <!--#region reserve-->
+       <div class="desktop:w-[845px] mobile:w-full h-[109px] mx-auto desktop:mt-[48px] mobile:mt-[200px] text-[#5E5E5E]">
+        <p class="font-[estedad-extralight] text-center text-[24px]">مشاهده موجودی خودروها </p>
+       <img src="/autorent/assets/reserve-C8fCEKYR.png" alt="" class="mx-auto mt-[8px]">
+       </div>
+       <div class="desktop:w-[400px] h-[48px] mobile:w-full mx-auto mb-[24px] flex gap-x-[227px]">
+        <div class="flex justify-end gap-x-[5px] ">
+        <a href="#" class="w-[128px] h-[48px] border-solid border-[1px] border-[#194BF0] rounded-[8px]
+        font-[estedad-medium] text-[14px] text-[#ffff] text-center bg-[#194BF0] flex justify-center items-center">پرطرفدار</a>
+        <a href="#"  class="w-[128px] h-[48px] border-solid border-[1px] border-[#194BF0] rounded-[8px]
+        font-[estedad-medium] text-[14px] text-[#194BF0] text-center  flex justify-center items-center">لوکس</a>
+        <a href="#"  class="w-[128px] h-[48px] border-solid border-[1px] border-[#194BF0] rounded-[8px]
+        font-[estedad-medium] text-[14px] text-[#194BF0] text-center flex justify-center items-center">اقتصادی</a>
+       </div>
+       <div class="w-[400px] h-[48px] flex">
+        <a href="#" class="w-[150px] flex items-center font-[estedad-semibold] text-[#194BF0] text-[16px]">مشاهده همه
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB8SURBVHgB7dS9CYAwEIbhTxFrGyHqEo5gY2N0Bh3BDdQJHM1RTh3A+ANpAzEpRPK0B29xHAf8TlxSrpr70JBW2xCE3hIVFMHUHUv4KlhDHUy52DtXjBJOPTSpz+aANkVQTPC9mfG9hS2spvHZo4vCFhm18hykrFK/r+87AV4JSe/czM4vAAAAAElFTkSuQmCC" alt="" class="w-[20px] h-[20px]"></a>
+       </div>
+      </div>
+    <!--#endregion-->
+    <!--#region grid-->
+   <div class="desktop:grid desktop:grid-cols-3 desktop:grid-rows-2 desktop:w-[1224px] mobile:w-full desktop:h-[1044px] mobile:h-auto mx-auto gap-[24px] mobile:space-y-[5px]"> 
+    <div class="w-[392px] h-[510px] pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-10-CABl8f-m.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto  pt-[16px] pb-[16px] border-solid border-b-[1px] border-[#F3F3F3]  flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+    <div class="w-[392px] h-[510px]  pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-11-v8QGJsi-.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto p-[8px] border-solid border-b-[1px] border-[#F3F3F3]  p-[8px] flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+    <div class="w-[392px] h-[510px] pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-12-DdrqiNVe.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto p-[8px] border-solid border-b-[1px] border-[#F3F3F3]  p-[8px] flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+    <div class="w-[392px] h-[510px]  pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-13-Cqwfz5UR.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto p-[8px] border-solid border-b-[1px] border-[#F3F3F3]  p-[8px] flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+    <div class="w-[392px] h-[510px]  pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-14-D_nE1r0u.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto p-[8px] border-solid border-b-[1px] border-[#F3F3F3]  p-[8px] flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+    <div class="w-[392px] h-[510px]  pt-[16px] pb-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#FFFFFF] mobile:mx-auto">
+      <div class="w-[324px] h-[225px] mx-auto mb-[8px] border-solid border-[1px] border-[#F3F3F3] rounded-[12px] flex items-center">
+        <img src="/autorent/assets/image-15-DfZ1oX3M.png" alt="">
+      </div>
+      <div class="w-[324px] h-[52px] mx-auto">
+        <p class="font-[estedad-semibold] text-[16px]">اجاره بنز E350 سدان</p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] mb-[8px] mt-[8px]">مدل:2016</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mt-[8px] mb-[8px] mx-auto p-[8px] flex justify-between items-center">
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex ">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">روزانه</p>
+      </div>
+      <div class="w-[324px] h-[44px] rounded-[8px] bg-[#F3F3F3] mx-auto p-[8px] border-solid border-b-[1px] border-[#F3F3F3]  p-[8px] flex justify-between items-center">
+        
+        <p class="font-[estedad-medium] text-[12px] text-[#494949] flex">از  ۱ تا 30 روز: <span class="font-[estedad-semibold] text-[16px] text-[#194BF0] mr-[8px]">8,500,000</span></p>
+        <p class="font-[estedad-medium] text-[12px] text-[#494949]">ماهانه</p>
+      </div>
+      <div class="w-[324px] h-[30px] mx-auto mt-[8px] mb-[8px] pt-[8px] border-solid border-t-[2px] border-[#F3F3F3] flex justify-between items-center">
+        <p class="font-[estedad-regular] text-[12px]">مبلغ ضمانت:</p>
+        <p class="font-[estedad-semibold] text-[12px]">80 میلیون تومان</p>
+      </div>
+      <a href="#" class="block w-[324px] h-[40px] bg-[#194BF0] rounded-[8px] text-[#ffff] text-center mx-auto mt-[8px] mb-[8px] font-[estedad-medium] flex items-center justify-center">درخواست رزرو</a>
+    </div>
+   </div>
+    <!--#endregion-->
+    <!--#region steps-->
+    <div class="w-full h-[195px] mx-auto"></div>
+    <div class="w-full desktop:h-[893px] mobile:h-auto  mx-auto mt-[98px] desktop:flex desktop:justify-center desktop:relative">
+      <img src="/autorent/assets/bluecar%20(2)-ndgNC4M7.png" alt="" class="mx-auto">
+      <div class="steps desktop:w-[400px] desktop:h-[92px] mobile:w-full mobile:h-[180px] mobile:p-[5px] mobile:mx-auto mobile:mt-[80px] desktop:absolute desktop:right-[100px] flex mobile:justify-center">
+        <div class="w-[80px] h-[80px] bg-[#ffff] rounded-[16px] flex justify-center items-center z-2"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.9994%2011.7501H3.99937C3.76937%2011.7501%203.55937%2011.6501%203.41937%2011.4701C3.27937%2011.3001%203.21937%2011.0601%203.26937%2010.8401L4.39937%205.44008C4.76937%203.69008%205.51937%202.08008%208.48937%202.08008H15.5194C18.4894%202.08008%2019.2394%203.70008%2019.6094%205.44008L20.7394%2010.8501C20.7894%2011.0701%2020.7294%2011.3001%2020.5894%2011.4801C20.4394%2011.6501%2020.2294%2011.7501%2019.9994%2011.7501ZM4.91937%2010.2501H19.0694L18.1294%205.75008C17.8494%204.44008%2017.5194%203.58008%2015.5094%203.58008H8.48937C6.47937%203.58008%206.14937%204.44008%205.86937%205.75008L4.91937%2010.2501Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M19.9596%2022.75H18.0796C16.4596%2022.75%2016.1496%2021.82%2015.9496%2021.21L15.7496%2020.61C15.4896%2019.85%2015.4596%2019.75%2014.5596%2019.75H9.4396C8.5396%2019.75%208.4796%2019.92%208.2496%2020.61L8.0496%2021.21C7.8396%2021.83%207.5396%2022.75%205.9196%2022.75H4.0396C3.2496%2022.75%202.4896%2022.42%201.9596%2021.84C1.4396%2021.27%201.1896%2020.51%201.2596%2019.75L1.8196%2013.66C1.9696%2012.01%202.4096%2010.25%205.6196%2010.25H18.3796C21.5896%2010.25%2022.0196%2012.01%2022.1796%2013.66L22.7396%2019.75C22.8096%2020.51%2022.5596%2021.27%2022.0396%2021.84C21.5096%2022.42%2020.7496%2022.75%2019.9596%2022.75ZM9.4396%2018.25H14.5596C16.3796%2018.25%2016.8096%2019.06%2017.1696%2020.12L17.3796%2020.74C17.5496%2021.25%2017.5496%2021.26%2018.0896%2021.26H19.9696C20.3396%2021.26%2020.6896%2021.11%2020.9396%2020.84C21.1796%2020.58%2021.2896%2020.25%2021.2596%2019.9L20.6996%2013.81C20.5696%2012.46%2020.4096%2011.76%2018.3996%2011.76H5.6196C3.5996%2011.76%203.4396%2012.46%203.3196%2013.81L2.7596%2019.9C2.7296%2020.25%202.8396%2020.58%203.0796%2020.84C3.3196%2021.11%203.6796%2021.26%204.0496%2021.26H5.9296C6.4696%2021.26%206.4696%2021.25%206.6396%2020.75L6.8396%2020.14C7.0896%2019.34%207.4596%2018.25%209.4396%2018.25Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M4%208.75H3C2.59%208.75%202.25%208.41%202.25%208C2.25%207.59%202.59%207.25%203%207.25H4C4.41%207.25%204.75%207.59%204.75%208C4.75%208.41%204.41%208.75%204%208.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M21%208.75H20C19.59%208.75%2019.25%208.41%2019.25%208C19.25%207.59%2019.59%207.25%2020%207.25H21C21.41%207.25%2021.75%207.59%2021.75%208C21.75%208.41%2021.41%208.75%2021%208.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M12%205.75C11.59%205.75%2011.25%205.41%2011.25%205V3C11.25%202.59%2011.59%202.25%2012%202.25C12.41%202.25%2012.75%202.59%2012.75%203V5C12.75%205.41%2012.41%205.75%2012%205.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M13.5%205.75H10.5C10.09%205.75%209.75%205.41%209.75%205C9.75%204.59%2010.09%204.25%2010.5%204.25H13.5C13.91%204.25%2014.25%204.59%2014.25%205C14.25%205.41%2013.91%205.75%2013.5%205.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M9%2015.75H6C5.59%2015.75%205.25%2015.41%205.25%2015C5.25%2014.59%205.59%2014.25%206%2014.25H9C9.41%2014.25%209.75%2014.59%209.75%2015C9.75%2015.41%209.41%2015.75%209%2015.75Z'%20fill='%230C0C0C'/%3e%3cpath%20d='M18%2015.75H15C14.59%2015.75%2014.25%2015.41%2014.25%2015C14.25%2014.59%2014.59%2014.25%2015%2014.25H18C18.41%2014.25%2018.75%2014.59%2018.75%2015C18.75%2015.41%2018.41%2015.75%2018%2015.75Z'%20fill='%230C0C0C'/%3e%3c/svg%3e" alt="" class="w-[48px] h-[48px]"></div>
+          <div class="mr-[-25px] mt-[-75px]"><img src="data:image/png;base64,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" alt="" >
+        </div>
+        <div class="w-[300px] h-[92px]">
+          <p class="font-[estedad-bold] text-[24px] leading-[140%]"><span class="text-[#d79a15]">خودروی</span>
+            خود را انتخاب کنید.</p>
+          <p class="font-[estedad-medium] text-[16px]  text-[#727272]">خودروی مورد نظر خود را، متناسب با درخواست خود انتخاب کنید.</p>
+        </div>
+      </div>
+      
+        <div class="desktop:w-[400px] desktop:h-[92px] mobile:w-full mobile:h-[180px] mobile:p-[10px] mobile:mx-auto mobile:mt-[70px] desktop:absolute desktop:right-[1020px] flex mobile:justify-center mobile:static">
+          <div class="w-[310px] h-[92px]">
+            <p class="font-[estedad-bold] text-[24px] leading-[140%]"><span class="text-[#d79a15]">خودروی</span>
+              خود را انتخاب کنید.</p>
+            <p class="font-[estedad-medium] text-[16px]  text-[#727272]">خودروی مورد نظر خود را، متناسب با درخواست خود انتخاب کنید.</p>
+          </div>
+          <div class="w-[80px] h-[80px] bg-[#ffff] rounded-[16px] flex justify-center items-center z-2"><img src="/autorent/assets/calender-Da0-lp_b.svg" alt="" class="w-[48px] h-[48px]"></div>
+            <div class="mr-[-65px] mt-[-80px]"><img src="data:image/png;base64,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" alt="" >
+          </div>
+         
+        </div>
+      
+         <div class="desktop:w-[400px] desktop:h-[92px] mobile:w-full mobile:h-[180px] mobile:mx-auto mobile:mt-[70px] desktop:absolute desktop:right-[110px] 
+         desktop:top-[620px] flex mobile:justify-center">
+          <div class="w-[80px] h-[80px] bg-[#ffff] rounded-[16px] flex justify-center items-center z-2"><img src="/autorent/assets/cards-B4w3uSOh.svg" alt="" class="w-[48px] h-[48px]"></div>
+            <div class="w-[112px] h-[80px] mr-[-70px] mt-[-80px]"><img src="data:image/png;base64,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" alt="" >
+          </div>
+          <div class="w-[363px] h-[117px]">
+            <p class="font-[estedad-bold] text-[24px] leading-[140%]"><span class="text-[#d79a15]">خودروی</span>
+              خود را انتخاب کنید.</p>
+            <p class="font-[estedad-medium] text-[16px]  text-[#727272]">خودروی مورد نظر خود را، متناسب با درخواست خود انتخاب کنید.</p>
+          </div>
+        </div>
+  
+        <div class="desktop:w-[400px] desktop:h-[92px] mobile:w-full mobile:h-[180px] mobile:mx-auto mobile:mt-[70px] desktop:absolute desktop:right-[1020px] 
+        desktop:top-[620px] flex mobile:justify-center">
+          <div class="w-[310px] h-[92px]">
+            <p class="font-[estedad-bold] text-[24px] leading-[140%]"><span class="text-[#d79a15]">خودروی</span>
+              خود را انتخاب کنید.</p>
+            <p class="font-[estedad-medium] text-[16px]  text-[#727272]">خودروی مورد نظر خود را، متناسب با درخواست خود انتخاب کنید.</p>
+          </div>
+          <div class="w-[80px] h-[80px] bg-[#ffff] rounded-[16px] flex justify-center items-center z-2"><img src="data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.48875%2044.3646L7.48698%2044.3643C5.63222%2044.1146%203.92405%2042.4313%203.63517%2040.5285C3.635%2040.5274%203.63484%2040.5263%203.63467%2040.5252L3.03566%2036.152L3.03525%2036.1491C2.94846%2035.5416%203.03356%2034.8156%203.26508%2034.114C3.49623%2033.4137%203.86077%2032.7759%204.29558%2032.3316C4.29616%2032.3311%204.29673%2032.3305%204.29731%2032.3299L13.0738%2023.5534L13.274%2023.3532L13.2053%2023.0786C11.8277%2017.5679%2013.4189%2011.7495%2017.4721%207.7351L17.4733%207.73395C23.7584%201.46819%2033.9825%201.44887%2040.287%207.73364C43.3324%2010.7792%2045.0003%2014.8317%2045.0003%2019.1398C45.0003%2023.4478%2043.3326%2027.5001%2040.2874%2030.5456C36.2105%2034.583%2030.4109%2036.1712%2024.944%2034.7754L24.6684%2034.705L24.4671%2034.9059L15.6671%2043.6859L15.667%2043.6858L15.6586%2043.6946C14.9264%2044.4616%2013.5645%2044.9998%2012.3603%2044.9998C12.1908%2044.9998%2011.9957%2044.9828%2011.8221%2044.9636L7.48875%2044.3646ZM4.98446%2035.8445L4.9849%2035.8477L5.5849%2040.2277L5.5848%2040.2277L5.58639%2040.2378C5.66706%2040.7487%205.96834%2041.2438%206.33259%2041.6167C6.69512%2041.9879%207.18641%2042.3056%207.71368%2042.3754C7.71414%2042.3755%207.71459%2042.3755%207.71505%2042.3756L12.0658%2042.9743C12.4173%2043.0308%2012.8419%2042.9558%2013.1942%2042.8439C13.5485%2042.7313%2013.9416%2042.5457%2014.1938%2042.2934L23.6335%2032.8738L23.6338%2032.8734C23.8935%2032.6137%2024.2767%2032.5286%2024.6318%2032.6373C29.6308%2034.213%2035.0837%2032.8635%2038.8138%2029.1334C41.4682%2026.479%2042.9403%2022.9116%2042.9403%2019.1398C42.9403%2015.3484%2041.4684%2011.8016%2038.8152%209.14771C36.116%206.40768%2032.4858%205.01985%2028.8603%205.01985C25.2343%205.01985%2021.6254%206.38791%2018.8673%209.14573C15.1356%2012.857%2013.7887%2018.2889%2015.3415%2023.3441C15.4487%2023.7087%2015.3558%2024.0773%2015.0867%2024.3463L5.68672%2033.7463C5.43499%2033.998%205.24956%2034.3904%205.13519%2034.739C5.0205%2035.0885%204.94041%2035.5067%204.98446%2035.8445Z'%20fill='%23494949'%20stroke='%23494949'/%3e%3cpath%20d='M18.3802%2040.5794C18.1256%2040.5794%2017.875%2040.4871%2017.6737%2040.2858L13.0737%2035.6858C12.689%2035.3011%2012.689%2034.6577%2013.0737%2034.2729C13.4584%2033.8882%2014.1019%2033.8882%2014.4866%2034.2729L19.0866%2038.8729C19.4713%2039.2577%2019.4713%2039.9011%2019.0866%2040.2858C18.8853%2040.4871%2018.6347%2040.5794%2018.3802%2040.5794Z'%20fill='%23494949'%20stroke='%23494949'/%3e%3cpath%20d='M29%2023C26.7961%2023%2025%2021.2039%2025%2019C25%2016.7961%2026.7961%2015%2029%2015C31.2039%2015%2033%2016.7961%2033%2019C33%2021.2039%2031.2039%2023%2029%2023ZM29%2017C27.9039%2017%2027%2017.9039%2027%2019C27%2020.0961%2027.9039%2021%2029%2021C30.0961%2021%2031%2020.0961%2031%2019C31%2017.9039%2030.0961%2017%2029%2017Z'%20fill='%23494949'%20stroke='%23494949'/%3e%3c/svg%3e" alt="" class="w-[48px] h-[48px]"></div>
+            <div class="mr-[-67px] mt-[-85px]"><img src="data:image/png;base64,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" alt="" >
+          </div>
+         
+        </div>
+      </div>
+    <!--#endregion-->
+     <!--#region questions-->
+     <div class="desktop:w-[845] desktop:h-[95px] mobile:h-auto mobile:w-full mx-auto mt-[56px]">
+      <p class="font-[estedad-regular] text-[24px] text-[#5E5E5E] text-center">پر تکرارترین سؤالاتی که پرسیدید</p>
+      <p class="font-[estedad-semibold] text-[32px] text-center">سؤالات
+        <span class="font-[estedad-semibold] text-[32px] text-[#d79a15]">متداول</span> </p>
+     </div>
+       <div class="desktop:w-[1224px] desktop:h-[459px] mobile:h-auto mobile:w-full mx-auto desktop:flex g-x-[24px]">
+       <div class="desktop:w-[808px] mobile:w-full h-[459px] rounded-[16px] flex-col space-y-[16px]">
+        <div class="desktop:w-[808px] h-[76px] mobile:w-full p-[24px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#ffff] flex">
+          <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2012.25H8C7.86614%2012.25%207.75%2012.1339%207.75%2012C7.75%2011.8661%207.86614%2011.75%208%2011.75H16C16.1339%2011.75%2016.25%2011.8661%2016.25%2012C16.25%2012.1339%2016.1339%2012.25%2016%2012.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M12%2016.25C11.8661%2016.25%2011.75%2016.1339%2011.75%2016V8C11.75%207.86614%2011.8661%207.75%2012%207.75C12.1339%207.75%2012.25%207.86614%2012.25%208V16C12.25%2016.1339%2012.1339%2016.25%2012%2016.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M15%2022.25H9C6.3424%2022.25%204.56492%2021.6803%203.4423%2020.5577C2.31968%2019.4351%201.75%2017.6576%201.75%2015V9C1.75%206.3424%202.31968%204.56492%203.4423%203.4423C4.56492%202.31968%206.3424%201.75%209%201.75H15C17.6576%201.75%2019.4351%202.31968%2020.5577%203.4423C21.6803%204.56492%2022.25%206.3424%2022.25%209V15C22.25%2017.6576%2021.6803%2019.4351%2020.5577%2020.5577C19.4351%2021.6803%2017.6576%2022.25%2015%2022.25ZM9%202.25C6.65972%202.25%204.92432%202.66107%203.7927%203.7927C2.66107%204.92432%202.25%206.65972%202.25%209V15C2.25%2017.3403%202.66107%2019.0757%203.7927%2020.2073C4.92432%2021.3389%206.65972%2021.75%209%2021.75H15C17.3403%2021.75%2019.0757%2021.3389%2020.2073%2020.2073C21.3389%2019.0757%2021.75%2017.3403%2021.75%2015V9C21.75%206.65972%2021.3389%204.92432%2020.2073%203.7927C19.0757%202.66107%2017.3403%202.25%2015%202.25H9Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3c/svg%3e" alt="" class="w-[24px] h-[24px]">
+          <p class="font-[estedad-medium] text-[16px] text-[#353535]">در صورت بروز نقص فنی برای خودرو چه اتفاقی می افتد؟</p>
+        </div>
+        <div class="desktop:w-[808px] mobile:w-full desktop:h-[183px] mobile:-auto p-[24px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#ffff]">
+         <div class="flex">
+          <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2012.25H8C7.86614%2012.25%207.75%2012.1339%207.75%2012C7.75%2011.8661%207.86614%2011.75%208%2011.75H16C16.1339%2011.75%2016.25%2011.8661%2016.25%2012C16.25%2012.1339%2016.1339%2012.25%2016%2012.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M12%2016.25C11.8661%2016.25%2011.75%2016.1339%2011.75%2016V8C11.75%207.86614%2011.8661%207.75%2012%207.75C12.1339%207.75%2012.25%207.86614%2012.25%208V16C12.25%2016.1339%2012.1339%2016.25%2012%2016.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M15%2022.25H9C6.3424%2022.25%204.56492%2021.6803%203.4423%2020.5577C2.31968%2019.4351%201.75%2017.6576%201.75%2015V9C1.75%206.3424%202.31968%204.56492%203.4423%203.4423C4.56492%202.31968%206.3424%201.75%209%201.75H15C17.6576%201.75%2019.4351%202.31968%2020.5577%203.4423C21.6803%204.56492%2022.25%206.3424%2022.25%209V15C22.25%2017.6576%2021.6803%2019.4351%2020.5577%2020.5577C19.4351%2021.6803%2017.6576%2022.25%2015%2022.25ZM9%202.25C6.65972%202.25%204.92432%202.66107%203.7927%203.7927C2.66107%204.92432%202.25%206.65972%202.25%209V15C2.25%2017.3403%202.66107%2019.0757%203.7927%2020.2073C4.92432%2021.3389%206.65972%2021.75%209%2021.75H15C17.3403%2021.75%2019.0757%2021.3389%2020.2073%2020.2073C21.3389%2019.0757%2021.75%2017.3403%2021.75%2015V9C21.75%206.65972%2021.3389%204.92432%2020.2073%203.7927C19.0757%202.66107%2017.3403%202.25%2015%202.25H9Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3c/svg%3e" alt="" class="w-[24px] h-[24px]">
+          <p class="font-[estedad-medium] desktop:text-[16px] mobile:text-[14px] text-[#353535]">هزینه بنزین و کارواش در خودروهای اجاره ای به عهده کیست؟</p></div>
+          <div>
+            <p class="font-[estedad-regular] desktop:text-[14px] mobile:text-[12px] text-[#727272]">در زمان اجاره خودرو بدون راننده خودروها کارواش شده و با باک بنزین پر تحویل مشتریان عزیز می گردد. در زمان استرداد خودرو در صورتی که خودرو به کارواش نیاز داشته و یا خودرو دارای کسر سوخت باشد هزینه آن بر عهده مشتری می باشد.</p></div>
+        </div>
+        <div class="desktop:w-[808px] mobile:w-full h-[76px] p-[24px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#ffff] flex">
+          <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2012.25H8C7.86614%2012.25%207.75%2012.1339%207.75%2012C7.75%2011.8661%207.86614%2011.75%208%2011.75H16C16.1339%2011.75%2016.25%2011.8661%2016.25%2012C16.25%2012.1339%2016.1339%2012.25%2016%2012.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M12%2016.25C11.8661%2016.25%2011.75%2016.1339%2011.75%2016V8C11.75%207.86614%2011.8661%207.75%2012%207.75C12.1339%207.75%2012.25%207.86614%2012.25%208V16C12.25%2016.1339%2012.1339%2016.25%2012%2016.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M15%2022.25H9C6.3424%2022.25%204.56492%2021.6803%203.4423%2020.5577C2.31968%2019.4351%201.75%2017.6576%201.75%2015V9C1.75%206.3424%202.31968%204.56492%203.4423%203.4423C4.56492%202.31968%206.3424%201.75%209%201.75H15C17.6576%201.75%2019.4351%202.31968%2020.5577%203.4423C21.6803%204.56492%2022.25%206.3424%2022.25%209V15C22.25%2017.6576%2021.6803%2019.4351%2020.5577%2020.5577C19.4351%2021.6803%2017.6576%2022.25%2015%2022.25ZM9%202.25C6.65972%202.25%204.92432%202.66107%203.7927%203.7927C2.66107%204.92432%202.25%206.65972%202.25%209V15C2.25%2017.3403%202.66107%2019.0757%203.7927%2020.2073C4.92432%2021.3389%206.65972%2021.75%209%2021.75H15C17.3403%2021.75%2019.0757%2021.3389%2020.2073%2020.2073C21.3389%2019.0757%2021.75%2017.3403%2021.75%2015V9C21.75%206.65972%2021.3389%204.92432%2020.2073%203.7927C19.0757%202.66107%2017.3403%202.25%2015%202.25H9Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3c/svg%3e" alt="" class="w-[24px] h-[24px]">
+          <p class="font-[estedad-medium] text-[16px] text-[#353535]">آیا ماشین های اتورنت دارای بیمه هستند؟</p>
+        </div>
+        <div class="desktop:w-[808px] mobile:w-full h-[76px] p-[24px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px] bg-[#fff] flex">
+          <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2012.25H8C7.86614%2012.25%207.75%2012.1339%207.75%2012C7.75%2011.8661%207.86614%2011.75%208%2011.75H16C16.1339%2011.75%2016.25%2011.8661%2016.25%2012C16.25%2012.1339%2016.1339%2012.25%2016%2012.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M12%2016.25C11.8661%2016.25%2011.75%2016.1339%2011.75%2016V8C11.75%207.86614%2011.8661%207.75%2012%207.75C12.1339%207.75%2012.25%207.86614%2012.25%208V16C12.25%2016.1339%2012.1339%2016.25%2012%2016.25Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3cpath%20d='M15%2022.25H9C6.3424%2022.25%204.56492%2021.6803%203.4423%2020.5577C2.31968%2019.4351%201.75%2017.6576%201.75%2015V9C1.75%206.3424%202.31968%204.56492%203.4423%203.4423C4.56492%202.31968%206.3424%201.75%209%201.75H15C17.6576%201.75%2019.4351%202.31968%2020.5577%203.4423C21.6803%204.56492%2022.25%206.3424%2022.25%209V15C22.25%2017.6576%2021.6803%2019.4351%2020.5577%2020.5577C19.4351%2021.6803%2017.6576%2022.25%2015%2022.25ZM9%202.25C6.65972%202.25%204.92432%202.66107%203.7927%203.7927C2.66107%204.92432%202.25%206.65972%202.25%209V15C2.25%2017.3403%202.66107%2019.0757%203.7927%2020.2073C4.92432%2021.3389%206.65972%2021.75%209%2021.75H15C17.3403%2021.75%2019.0757%2021.3389%2020.2073%2020.2073C21.3389%2019.0757%2021.75%2017.3403%2021.75%2015V9C21.75%206.65972%2021.3389%204.92432%2020.2073%203.7927C19.0757%202.66107%2017.3403%202.25%2015%202.25H9Z'%20fill='%23194BF0'%20stroke='%23194BF0'/%3e%3c/svg%3e" alt="" class="w-[24px] h-[24px]">
+          <p class="font-[estedad-medium] text-[16px] text-[#353535]">محدودیت کیلومتر در اجاره خودرو چقدر می باشد؟</p>
+        </div>
+       </div>
+       <div class="desktop:w-[392px] desktop:h-[459px] mobile:w-full mobile:h-[300px] mx-auto rounded-[16px] overflow-hidden">
+        <img src="/autorent/assets/image-16-DhJ-IuEv.png" alt="" class="w-full h-full object-cover rounded-[16px] desktop:scale-125">
+       </div>
+       </div>
+      <!--#endregion-->
+      <!--#region clients-->
+      <div class="desktop:w-[845px] mobile:w-full h-[95px] mx-auto mt-[48px] mb-[24px]">
+        <p class="text-center font-[estedad-regular] text-[#5E5E5E] text-[24px]">آنچه مشتریان ما درموردمان گفته‌اند.</p>
+        <p class="text-center font-[estedad-semibold] text-[32px]">نظرات
+          <span class="text-[#d79a15]">مشتریان</span>
+        </p>
+      </div>
+      <div class="desktop:w-[1225px] mobile:w-full desktop:h-[391px] mobile:h-[400px] desktop:p-[34px] mobile:p-[20px] mx-auto 
+      rounded-[16px] bg-[#ffff]  border-solid border-[1px] border-[#D7D7D7]">
+      <div class="w-[136px] h-[228px] mx-auto ">
+        <div class="w-[136px] h-[136px] border-solid border-[5px] border-[#194BF0] rounded-[68px] 
+        bg-[url(/src/images/image-17.png)] bg-cover bg-center"></div>
+        <p class="text-center font-[estedad-medium] text-[16px] m-[4px]">اولدوز بهاور</p>
+        <div class="w-[136px] h-[24px] mt-[px]">
+          <img src="data:image/svg+xml,%3csvg%20width='137'%20height='24'%20viewBox='0%200%20137%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M126.23%203.51063L127.99%207.03063C128.23%207.52063%20128.87%207.99062%20129.41%208.08063L132.6%208.61062C134.64%208.95062%20135.12%2010.4306%20133.65%2011.8906L131.17%2014.3706C130.75%2014.7906%20130.52%2015.6006%20130.65%2016.1806L131.36%2019.2506C131.92%2021.6806%20130.63%2022.6206%20128.48%2021.3506L125.49%2019.5806C124.95%2019.2606%20124.06%2019.2606%20123.51%2019.5806L120.52%2021.3506C118.38%2022.6206%20117.08%2021.6706%20117.64%2019.2506L118.35%2016.1806C118.48%2015.6006%20118.25%2014.7906%20117.83%2014.3706L115.35%2011.8906C113.89%2010.4306%20114.36%208.95062%20116.4%208.61062L119.59%208.08063C120.12%207.99062%20120.76%207.52063%20121%207.03063L122.76%203.51063C123.72%201.60063%20125.28%201.60063%20126.23%203.51063Z'%20fill='%23D7D7D7'/%3e%3cpath%20d='M98.2299%203.51063L99.9899%207.03063C100.23%207.52063%20100.87%207.99062%20101.41%208.08063L104.6%208.61062C106.64%208.95062%20107.12%2010.4306%20105.65%2011.8906L103.17%2014.3706C102.75%2014.7906%20102.52%2015.6006%20102.65%2016.1806L103.36%2019.2506C103.92%2021.6806%20102.63%2022.6206%20100.48%2021.3506L97.4899%2019.5806C96.9499%2019.2606%2096.0599%2019.2606%2095.5099%2019.5806L92.5199%2021.3506C90.3799%2022.6206%2089.0799%2021.6706%2089.6399%2019.2506L90.3499%2016.1806C90.4799%2015.6006%2090.2499%2014.7906%2089.8299%2014.3706L87.3499%2011.8906C85.8899%2010.4306%2086.3599%208.95062%2088.3999%208.61062L91.5899%208.08063C92.1199%207.99062%2092.7599%207.52063%2092.9999%207.03063L94.7599%203.51063C95.7199%201.60063%2097.2799%201.60063%2098.2299%203.51063Z'%20fill='%23FDB713'/%3e%3cpath%20d='M70.2299%203.51063L71.9899%207.03063C72.2299%207.52063%2072.8699%207.99062%2073.4099%208.08063L76.5999%208.61062C78.6399%208.95062%2079.1199%2010.4306%2077.6499%2011.8906L75.1699%2014.3706C74.7499%2014.7906%2074.5199%2015.6006%2074.6499%2016.1806L75.3599%2019.2506C75.9199%2021.6806%2074.6299%2022.6206%2072.4799%2021.3506L69.4899%2019.5806C68.9499%2019.2606%2068.0599%2019.2606%2067.5099%2019.5806L64.5199%2021.3506C62.3799%2022.6206%2061.0799%2021.6706%2061.6399%2019.2506L62.3499%2016.1806C62.4799%2015.6006%2062.2499%2014.7906%2061.8299%2014.3706L59.3499%2011.8906C57.8899%2010.4306%2058.3599%208.95062%2060.3999%208.61062L63.5899%208.08063C64.1199%207.99062%2064.7599%207.52063%2064.9999%207.03063L66.7599%203.51063C67.7199%201.60063%2069.2799%201.60063%2070.2299%203.51063Z'%20fill='%23FDB713'/%3e%3cpath%20d='M42.2299%203.51063L43.9899%207.03063C44.2299%207.52063%2044.8699%207.99062%2045.4099%208.08063L48.5999%208.61062C50.6399%208.95062%2051.1199%2010.4306%2049.6499%2011.8906L47.1699%2014.3706C46.7499%2014.7906%2046.5199%2015.6006%2046.6499%2016.1806L47.3599%2019.2506C47.9199%2021.6806%2046.6299%2022.6206%2044.4799%2021.3506L41.4899%2019.5806C40.9499%2019.2606%2040.0599%2019.2606%2039.5099%2019.5806L36.5199%2021.3506C34.3799%2022.6206%2033.0799%2021.6706%2033.6399%2019.2506L34.3499%2016.1806C34.4799%2015.6006%2034.2499%2014.7906%2033.8299%2014.3706L31.3499%2011.8906C29.8899%2010.4306%2030.3599%208.95062%2032.3999%208.61062L35.5899%208.08063C36.1199%207.99062%2036.7599%207.52063%2036.9999%207.03063L38.7599%203.51063C39.7199%201.60063%2041.2799%201.60063%2042.2299%203.51063Z'%20fill='%23FDB713'/%3e%3cpath%20d='M14.2299%203.51063L15.9899%207.03063C16.2299%207.52063%2016.8699%207.99062%2017.4099%208.08063L20.5999%208.61062C22.6399%208.95062%2023.1199%2010.4306%2021.6499%2011.8906L19.1699%2014.3706C18.7499%2014.7906%2018.5199%2015.6006%2018.6499%2016.1806L19.3599%2019.2506C19.9199%2021.6806%2018.6299%2022.6206%2016.4799%2021.3506L13.4899%2019.5806C12.9499%2019.2606%2012.0599%2019.2606%2011.5099%2019.5806L8.51991%2021.3506C6.37991%2022.6206%205.07991%2021.6706%205.63991%2019.2506L6.34991%2016.1806C6.47991%2015.6006%206.24991%2014.7906%205.82991%2014.3706L3.34991%2011.8906C1.88991%2010.4306%202.35991%208.95062%204.39991%208.61062L7.58991%208.08063C8.11991%207.99062%208.75991%207.52063%208.99991%207.03063L10.7599%203.51063C11.7199%201.60063%2013.2799%201.60063%2014.2299%203.51063Z'%20fill='%23FDB713'/%3e%3c/svg%3e" alt="">
+        </div>
+      </div>
+        <div class="desktop:w-[600px] h-[107px] mx-auto">
+          <p class="font-[estedad-regular] text-[14px] text-[#727272] text-center leading-[180%]">اولین بار بود که برای مسافرت ماشین اجاره می‌کردم و به دنبال یک شرکت با سابقه و مطمئن می‌گشتم!
+            بدون هیچ شکی میگم، اتو رنت تو کار خودش بهترینه!پشتیبانی عالی، هزینه بسیار مناسب، آسان بودن روند اجاره و رزرو؛ هرچی بگم کم گفتم!
+            حتماً دفعه بعد هم برای اجاره ماشین به سراغشون میام.</p>
+        </div>
+      </div>
+      <div class="desktop:w-[1224px] mobile:w-full desktop:h-[96px] mobile:h-auto mx-auto mt-[24px] flex flex-wrap mobile:space-y-[5px] desktop:justify-between mobile:justify-center">
+      <div class="w-[288px] h-[100%] rounded-[16px] p-[17.5px] border-solid border-[1px] border-[#D7D7D7] bg-[#FDB713] flex gap-x-[16px]">
+        <img src="/autorent/assets/image-17-DpKaMv-i.png" alt="" class="w-[64px] h-[64px] rounded-[70px]">
+        <div class="w-[89px] h-[61px] space-y-[8px]">
+        <p class="font-[estedad-medium] text-[16px] pt-[5px]">اولدوز بهاور</p>
+        <p class="font-[estedad-regular] text-[14px]">27 دی ماه 1380</p></div>
+      </div>
+      <div>
+        <div class="w-[288px] h-[100%] rounded-[16px] p-[17.5px]  border-solid border-[1px] border-[#D7D7D7] bg-[#ffff] flex gap-x-[16px]">
+          <img src="/autorent/assets/image-18-E8s5snvQ.png" alt="" class="w-[64px] h-[64px] rounded-[70px]">
+          <div class="w-[89px] h-[61px] space-y-[8px]">
+          <p class="font-[estedad-medium] text-[16px] pt-[5px]">اولدوز بهاور</p>
+          <p class="font-[estedad-regular] text-[14px]">27 دی ماه 1380</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="w-[288px] h-[100%] rounded-[16px] p-[17.5px]  border-solid border-[1px] border-[#D7D7D7] bg-[#ffff] flex gap-x-[16px]">
+          <img src="/autorent/assets/image-19-CGeS7C-W.png" alt="" class="w-[64px] h-[64px] rounded-[70px]">
+          <div class="w-[89px] h-[61px] space-y-[8px]">
+          <p class="font-[estedad-medium] text-[16px] pt-[5px]">اولدوز بهاور</p>
+          <p class="font-[estedad-regular] text-[14px]">27 دی ماه 1380</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="w-[288px] h-[100%] rounded-[16px] p-[17.5px]  border-solid border-[1px] border-[#D7D7D7] bg-[#ffff] flex gap-x-[16px]">
+          <img src="/autorent/assets/image-20-XDxSnu2J.png" alt="" class="w-[64px] h-[64px] rounded-[70px]">
+          <div class="w-[89px] h-[61px] space-y-[8px]">
+          <p class="font-[estedad-medium] text-[16px] pt-[5px]">اولدوز بهاور</p>
+          <p class="font-[estedad-regular] text-[14px]">27 دی ماه 1380</p></div>
+        </div>
+      </div>
+      </div>
+      <!--#endregion-->
+       <!--#region blog-->
+       <div class="desktop:w-[1221px] mobile:w-full  mx-auto mt-[48px] flex justify-end gap-x-[px]">
+       <div class="desktop:w-[400px] mobile:w-[250px] h-[95px] ">
+        <p class="text-center font-[estedad-regular] text-[#5E5E5E] text-[24px]">مقالات ما</p>
+        <p class="text-center font-[estedad-semibold] text-[32px]">مجله
+          <span class="text-[#d79a15]">خودرو</span>
+        </p>
+       </div>
+       <div class="desktop:w-[400px] mobile:w-[140px] h-[95px] p-[10px] flex justify-end">
+        <a href="#" class="w-[150px] h-[48px]  flex items-end font-[estedad-semibold]  text-[#194BF0] text-[16px]">مشاهده همه
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB8SURBVHgB7dS9CYAwEIbhTxFrGyHqEo5gY2N0Bh3BDdQJHM1RTh3A+ANpAzEpRPK0B29xHAf8TlxSrpr70JBW2xCE3hIVFMHUHUv4KlhDHUy52DtXjBJOPTSpz+aANkVQTPC9mfG9hS2spvHZo4vCFhm18hykrFK/r+87AV4JSe/czM4vAAAAAElFTkSuQmCC" alt="" class="w-[20px] h-[20px]"></a>
+       </div>
+      </div>
+      <div class="desktop:w-[1221px] desktop:h-[370px] mobile:h-auto mx-auto desktop:flex desktop:gap-x-[24px] mobile:space-y-[5px]">
+      <div class="w-[391px] h-[370px] bg-[#ffff] mobile:mx-auto p-[16px] border-solid border-[1px] border-[#D7D7D7] rounded-[16px]">
+        <div class="w-[359px] h-[195px] rounded-[12px] mx-auto">
+          <img src="/autorent/assets/image-21-DsdPGzzt.png" alt="" class="rounded-[12px] ">
+        </div>
+        <div class="w-[359px] h-[127px] mt-[16px]">
+         <div class="w-[351px] h-[28px] ">
+          <p class="font-[estedad-medium] text-[16px] text-[#414141]">روش های مختلف برای اجاره خودرو </p>
+         </div>
+         <div class="w-[351px] h-[42px] mt-[16px]">
+          <p class="font-[estedad-regular] text-[12px] text-[#757575]"> امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی شده است.</p>
+         </div>
+         <div class="w-[351px] h-[25px] mt-[16px] flex">
+         <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]">
+          <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.0003%2018.4577C5.3348%2018.4577%201.54199%2014.6649%201.54199%209.99935C1.54199%205.33383%205.3348%201.54102%2010.0003%201.54102C14.6659%201.54102%2018.4587%205.33383%2018.4587%209.99935C18.4587%2014.6649%2014.6659%2018.4577%2010.0003%2018.4577ZM10.0003%201.79102C5.47418%201.79102%201.79199%205.47321%201.79199%209.99935C1.79199%2014.5255%205.47418%2018.2077%2010.0003%2018.2077C14.5265%2018.2077%2018.2087%2014.5255%2018.2087%209.99935C18.2087%205.47321%2014.5265%201.79102%2010.0003%201.79102Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3cpath%20d='M13.0525%2012.7668L13.0422%2012.7599L13.0314%2012.7535L10.4483%2011.2119C10.4482%2011.2119%2010.4482%2011.2118%2010.4481%2011.2118C9.95793%2010.9188%209.5752%2010.2405%209.5752%209.67448V6.25781C9.5752%206.22767%209.58748%206.19638%209.61312%206.17074C9.63877%206.1451%209.67005%206.13281%209.7002%206.13281C9.73034%206.13281%209.76162%206.1451%209.78727%206.17074C9.81291%206.19638%209.8252%206.22767%209.8252%206.25781V9.67448C9.8252%209.94284%209.92923%2010.2152%2010.0479%2010.4238C10.1656%2010.6308%2010.3463%2010.8604%2010.5795%2010.9968L13.1606%2012.5372L13.1606%2012.5372L13.1649%2012.5397C13.2136%2012.5681%2013.2424%2012.637%2013.2052%2012.7077C13.1715%2012.7571%2013.1256%2012.7745%2013.0919%2012.7745C13.0762%2012.7745%2013.0671%2012.7727%2013.0628%2012.7715C13.0591%2012.7705%2013.0563%2012.7693%2013.0525%2012.7668Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3c/svg%3e" alt="" class="w-[14px] h-[14px]">
+          <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">3دقیقه</p>
+         </div>
+         <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]"> 
+          <img src="data:image/svg+xml,%3csvg%20width='18'%20height='19'%20viewBox='0%200%2018%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.00043%2012.747C7.20793%2012.747%205.75293%2011.292%205.75293%209.49945C5.75293%207.70695%207.20793%206.25195%209.00043%206.25195C10.7929%206.25195%2012.2479%207.70695%2012.2479%209.49945C12.2479%2011.292%2010.7929%2012.747%209.00043%2012.747ZM9.00043%207.37695C7.83043%207.37695%206.87793%208.32945%206.87793%209.49945C6.87793%2010.6695%207.83043%2011.622%209.00043%2011.622C10.1704%2011.622%2011.1229%2010.6695%2011.1229%209.49945C11.1229%208.32945%2010.1704%207.37695%209.00043%207.37695Z'%20fill='%23757575'/%3e%3cpath%20d='M8.99957%2016.2644C6.17957%2016.2644%203.51707%2014.6144%201.68707%2011.7494C0.89207%2010.5119%200.89207%208.49437%201.68707%207.24937C3.52457%204.38438%206.18707%202.73438%208.99957%202.73438C11.8121%202.73438%2014.4746%204.38438%2016.3046%207.24937C17.0996%208.48688%2017.0996%2010.5044%2016.3046%2011.7494C14.4746%2014.6144%2011.8121%2016.2644%208.99957%2016.2644ZM8.99957%203.85938C6.57707%203.85938%204.25957%205.31438%202.63957%207.85688C2.07707%208.73438%202.07707%2010.2644%202.63957%2011.1419C4.25957%2013.6844%206.57707%2015.1394%208.99957%2015.1394C11.4221%2015.1394%2013.7396%2013.6844%2015.3596%2011.1419C15.9221%2010.2644%2015.9221%208.73438%2015.3596%207.85688C13.7396%205.31438%2011.4221%203.85938%208.99957%203.85938Z'%20fill='%23757575'/%3e%3c/svg%3e" alt="" class="w-[18px] h-[18px]">
+          <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">1,213</p>
+         </div>
+         </div>
+        </div>
+      </div>
+      <div class="w-[391px] h-[370px] bg-[#ffff] mobile:mx-auto  p-[16px] border-solid border-[1px] border-[#D7D7D7]
+       rounded-[16px]">
+       <div class="w-[359px] h-[195px] rounded-[12px] mx-auto">
+        <img src="/autorent/assets/image-22-CySLPlKg.png" alt="" class="rounded-[12px] ">
+      </div>
+      <div class="w-[359px] h-[127px] mt-[16px]">
+       <div class="w-[351px] h-[28px] ">
+        <p class="font-[estedad-medium] text-[16px] text-[#414141]">روش های مختلف برای اجاره خودرو </p>
+       </div>
+       <div class="w-[351px] h-[42px] mt-[16px]">
+        <p class="font-[estedad-regular] text-[12px] text-[#757575]"> امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی شده است.</p>
+       </div>
+       <div class="w-[351px] h-[25px] mt-[16px] flex">
+       <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]">
+        <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.0003%2018.4577C5.3348%2018.4577%201.54199%2014.6649%201.54199%209.99935C1.54199%205.33383%205.3348%201.54102%2010.0003%201.54102C14.6659%201.54102%2018.4587%205.33383%2018.4587%209.99935C18.4587%2014.6649%2014.6659%2018.4577%2010.0003%2018.4577ZM10.0003%201.79102C5.47418%201.79102%201.79199%205.47321%201.79199%209.99935C1.79199%2014.5255%205.47418%2018.2077%2010.0003%2018.2077C14.5265%2018.2077%2018.2087%2014.5255%2018.2087%209.99935C18.2087%205.47321%2014.5265%201.79102%2010.0003%201.79102Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3cpath%20d='M13.0525%2012.7668L13.0422%2012.7599L13.0314%2012.7535L10.4483%2011.2119C10.4482%2011.2119%2010.4482%2011.2118%2010.4481%2011.2118C9.95793%2010.9188%209.5752%2010.2405%209.5752%209.67448V6.25781C9.5752%206.22767%209.58748%206.19638%209.61312%206.17074C9.63877%206.1451%209.67005%206.13281%209.7002%206.13281C9.73034%206.13281%209.76162%206.1451%209.78727%206.17074C9.81291%206.19638%209.8252%206.22767%209.8252%206.25781V9.67448C9.8252%209.94284%209.92923%2010.2152%2010.0479%2010.4238C10.1656%2010.6308%2010.3463%2010.8604%2010.5795%2010.9968L13.1606%2012.5372L13.1606%2012.5372L13.1649%2012.5397C13.2136%2012.5681%2013.2424%2012.637%2013.2052%2012.7077C13.1715%2012.7571%2013.1256%2012.7745%2013.0919%2012.7745C13.0762%2012.7745%2013.0671%2012.7727%2013.0628%2012.7715C13.0591%2012.7705%2013.0563%2012.7693%2013.0525%2012.7668Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3c/svg%3e" alt="" class="w-[14px] h-[14px]">
+        <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">3دقیقه</p>
+       </div>
+       <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]"> 
+        <img src="data:image/svg+xml,%3csvg%20width='18'%20height='19'%20viewBox='0%200%2018%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.00043%2012.747C7.20793%2012.747%205.75293%2011.292%205.75293%209.49945C5.75293%207.70695%207.20793%206.25195%209.00043%206.25195C10.7929%206.25195%2012.2479%207.70695%2012.2479%209.49945C12.2479%2011.292%2010.7929%2012.747%209.00043%2012.747ZM9.00043%207.37695C7.83043%207.37695%206.87793%208.32945%206.87793%209.49945C6.87793%2010.6695%207.83043%2011.622%209.00043%2011.622C10.1704%2011.622%2011.1229%2010.6695%2011.1229%209.49945C11.1229%208.32945%2010.1704%207.37695%209.00043%207.37695Z'%20fill='%23757575'/%3e%3cpath%20d='M8.99957%2016.2644C6.17957%2016.2644%203.51707%2014.6144%201.68707%2011.7494C0.89207%2010.5119%200.89207%208.49437%201.68707%207.24937C3.52457%204.38438%206.18707%202.73438%208.99957%202.73438C11.8121%202.73438%2014.4746%204.38438%2016.3046%207.24937C17.0996%208.48688%2017.0996%2010.5044%2016.3046%2011.7494C14.4746%2014.6144%2011.8121%2016.2644%208.99957%2016.2644ZM8.99957%203.85938C6.57707%203.85938%204.25957%205.31438%202.63957%207.85688C2.07707%208.73438%202.07707%2010.2644%202.63957%2011.1419C4.25957%2013.6844%206.57707%2015.1394%208.99957%2015.1394C11.4221%2015.1394%2013.7396%2013.6844%2015.3596%2011.1419C15.9221%2010.2644%2015.9221%208.73438%2015.3596%207.85688C13.7396%205.31438%2011.4221%203.85938%208.99957%203.85938Z'%20fill='%23757575'/%3e%3c/svg%3e" alt="" class="w-[18px] h-[18px]">
+        <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">1,213</p>
+       </div>
+       </div>
+      </div>
+    </div>
+      <div class="w-[391px] h-[370px] bg-[#ffff] mobile:mx-auto  p-[16px] border-solid border-[1px] border-[#D7D7D7] 
+      rounded-[16px]">
+      <div class="w-[359px] h-[195px] rounded-[12px] mx-auto">
+        <img src="/autorent/assets/image-23-NVPvxMoP.png" alt="" class="rounded-[12px] ">
+      </div>
+      <div class="w-[359px] h-[127px] mt-[16px]">
+       <div class="w-[351px] h-[28px] ">
+        <p class="font-[estedad-medium] text-[16px] text-[#414141]">روش های مختلف برای اجاره خودرو </p>
+       </div>
+       <div class="w-[351px] h-[42px] mt-[16px]">
+        <p class="font-[estedad-regular] text-[12px] text-[#757575]"> امروزه با تغییراتی که در سبک زندگی مردم و شرایط اقتصادی جوامع به وجود آمده است نیازهای افراد و نحوه دسترسی به آنها نیز دچار تحولاتی شده است.</p>
+       </div>
+       <div class="w-[351px] h-[25px] mt-[16px] flex">
+       <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]">
+        <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10.0003%2018.4577C5.3348%2018.4577%201.54199%2014.6649%201.54199%209.99935C1.54199%205.33383%205.3348%201.54102%2010.0003%201.54102C14.6659%201.54102%2018.4587%205.33383%2018.4587%209.99935C18.4587%2014.6649%2014.6659%2018.4577%2010.0003%2018.4577ZM10.0003%201.79102C5.47418%201.79102%201.79199%205.47321%201.79199%209.99935C1.79199%2014.5255%205.47418%2018.2077%2010.0003%2018.2077C14.5265%2018.2077%2018.2087%2014.5255%2018.2087%209.99935C18.2087%205.47321%2014.5265%201.79102%2010.0003%201.79102Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3cpath%20d='M13.0525%2012.7668L13.0422%2012.7599L13.0314%2012.7535L10.4483%2011.2119C10.4482%2011.2119%2010.4482%2011.2118%2010.4481%2011.2118C9.95793%2010.9188%209.5752%2010.2405%209.5752%209.67448V6.25781C9.5752%206.22767%209.58748%206.19638%209.61312%206.17074C9.63877%206.1451%209.67005%206.13281%209.7002%206.13281C9.73034%206.13281%209.76162%206.1451%209.78727%206.17074C9.81291%206.19638%209.8252%206.22767%209.8252%206.25781V9.67448C9.8252%209.94284%209.92923%2010.2152%2010.0479%2010.4238C10.1656%2010.6308%2010.3463%2010.8604%2010.5795%2010.9968L13.1606%2012.5372L13.1606%2012.5372L13.1649%2012.5397C13.2136%2012.5681%2013.2424%2012.637%2013.2052%2012.7077C13.1715%2012.7571%2013.1256%2012.7745%2013.0919%2012.7745C13.0762%2012.7745%2013.0671%2012.7727%2013.0628%2012.7715C13.0591%2012.7705%2013.0563%2012.7693%2013.0525%2012.7668Z'%20fill='%23727272'%20stroke='%23727272'/%3e%3c/svg%3e" alt="" class="w-[14px] h-[14px]">
+        <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">3دقیقه</p>
+       </div>
+       <div class="w-[70px] h-[25px] flex items-center gap-x-[5px]"> 
+        <img src="data:image/svg+xml,%3csvg%20width='18'%20height='19'%20viewBox='0%200%2018%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.00043%2012.747C7.20793%2012.747%205.75293%2011.292%205.75293%209.49945C5.75293%207.70695%207.20793%206.25195%209.00043%206.25195C10.7929%206.25195%2012.2479%207.70695%2012.2479%209.49945C12.2479%2011.292%2010.7929%2012.747%209.00043%2012.747ZM9.00043%207.37695C7.83043%207.37695%206.87793%208.32945%206.87793%209.49945C6.87793%2010.6695%207.83043%2011.622%209.00043%2011.622C10.1704%2011.622%2011.1229%2010.6695%2011.1229%209.49945C11.1229%208.32945%2010.1704%207.37695%209.00043%207.37695Z'%20fill='%23757575'/%3e%3cpath%20d='M8.99957%2016.2644C6.17957%2016.2644%203.51707%2014.6144%201.68707%2011.7494C0.89207%2010.5119%200.89207%208.49437%201.68707%207.24937C3.52457%204.38438%206.18707%202.73438%208.99957%202.73438C11.8121%202.73438%2014.4746%204.38438%2016.3046%207.24937C17.0996%208.48688%2017.0996%2010.5044%2016.3046%2011.7494C14.4746%2014.6144%2011.8121%2016.2644%208.99957%2016.2644ZM8.99957%203.85938C6.57707%203.85938%204.25957%205.31438%202.63957%207.85688C2.07707%208.73438%202.07707%2010.2644%202.63957%2011.1419C4.25957%2013.6844%206.57707%2015.1394%208.99957%2015.1394C11.4221%2015.1394%2013.7396%2013.6844%2015.3596%2011.1419C15.9221%2010.2644%2015.9221%208.73438%2015.3596%207.85688C13.7396%205.31438%2011.4221%203.85938%208.99957%203.85938Z'%20fill='%23757575'/%3e%3c/svg%3e" alt="" class="w-[18px] h-[18px]">
+        <p class="font-[estedad-medium] text-[#757575] text-[14px] text-center">1,213</p>
+       </div>
+       </div>
+      </div>
+    </div>
+     </div>
+        <!--#endregion-->
+         <!--#region footer-->
+        <div class="desktop:w-[1224px] mobile:w-full desktop:h-[432px] mobile:h-auto bg-[#1E1E1EE5] mx-auto mt-[80px] 
+        desktop:rounded-[16px] mobile:rounded-t-[16px] relative">
+          <div class="w-full h-full overflow-hidden absolute top-0 left-0" >
+            <img src="/autorent/assets/footer-NGkZ_B_H.png" alt="" class="desktop:scale-170 mobile:scale-550 opacity-[0.03] mobile:hidden
+            desktop:block">
+          </div>
+          <div class="w-full h-full pt-[41px] mobile:p-[10px]">
+          <div class="desktop:w-[1120px] mobile:w-full desktop:h-[101px] mobile:h-auto mx-auto p-[16px] border-solid border-[1px] border-[#868686] rounded-[16px] flex flex-wrap justify-between items-center mobile:space-y-[10px] ]">
+           <di
+           class="desktop:w-[255px] mobile:w-full h-[69px]  flex justify-center gap-x-[16px] items-center">
+            <div class="w-[48px] h-[48px] border-solid border-[1px] border-[#ffff] rounded-[12px] flex justify-center items-center">
+              <img src="data:image/svg+xml,%3csvg%20width='25'%20height='25'%20viewBox='0%200%2025%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.616%2023.25C16.486%2023.25%2015.296%2022.98%2014.066%2022.46C12.866%2021.95%2011.656%2021.25%2010.476%2020.4C9.30602%2019.54%208.17602%2018.58%207.10602%2017.53C6.04602%2016.46%205.08602%2015.33%204.23602%2014.17C3.37602%2012.97%202.68602%2011.77%202.19602%2010.61C1.67602%209.37%201.41602%208.17%201.41602%207.04C1.41602%206.26%201.55602%205.52%201.82602%204.83C2.10602%204.12%202.55602%203.46%203.16602%202.89C3.93602%202.13%204.81602%201.75%205.75602%201.75C6.14602%201.75%206.54602%201.84%206.88602%202C7.27602%202.18%207.60602%202.45%207.84602%202.81L10.166%206.08C10.376%206.37%2010.536%206.65%2010.646%206.93C10.776%207.23%2010.846%207.53%2010.846%207.82C10.846%208.2%2010.736%208.57%2010.526%208.92C10.376%209.19%2010.146%209.48%209.85602%209.77L9.17602%2010.48C9.18602%2010.51%209.19602%2010.53%209.20602%2010.55C9.32602%2010.76%209.56602%2011.12%2010.026%2011.66C10.516%2012.22%2010.976%2012.73%2011.436%2013.2C12.026%2013.78%2012.516%2014.24%2012.976%2014.62C13.546%2015.1%2013.916%2015.34%2014.136%2015.45L14.116%2015.5L14.846%2014.78C15.156%2014.47%2015.456%2014.24%2015.746%2014.09C16.296%2013.75%2016.996%2013.69%2017.696%2013.98C17.956%2014.09%2018.236%2014.24%2018.536%2014.45L21.856%2016.81C22.226%2017.06%2022.496%2017.38%2022.656%2017.76C22.806%2018.14%2022.876%2018.49%2022.876%2018.84C22.876%2019.32%2022.766%2019.8%2022.556%2020.25C22.346%2020.7%2022.086%2021.09%2021.756%2021.45C21.186%2022.08%2020.566%2022.53%2019.846%2022.82C19.156%2023.1%2018.406%2023.25%2017.616%2023.25ZM5.75602%203.25C5.20602%203.25%204.69602%203.49%204.20602%203.97C3.74602%204.4%203.42602%204.87%203.22602%205.38C3.01602%205.9%202.91602%206.45%202.91602%207.04C2.91602%207.97%203.13602%208.98%203.57602%2010.02C4.02602%2011.08%204.65602%2012.18%205.45602%2013.28C6.25602%2014.38%207.16602%2015.45%208.16602%2016.46C9.16602%2017.45%2010.246%2018.37%2011.356%2019.18C12.436%2019.97%2013.546%2020.61%2014.646%2021.07C16.356%2021.8%2017.956%2021.97%2019.276%2021.42C19.786%2021.21%2020.236%2020.89%2020.646%2020.43C20.876%2020.18%2021.056%2019.91%2021.206%2019.59C21.326%2019.34%2021.386%2019.08%2021.386%2018.82C21.386%2018.66%2021.356%2018.5%2021.276%2018.32C21.246%2018.26%2021.186%2018.15%2020.996%2018.02L17.676%2015.66C17.476%2015.52%2017.296%2015.42%2017.126%2015.35C16.906%2015.26%2016.816%2015.17%2016.476%2015.38C16.276%2015.48%2016.096%2015.63%2015.896%2015.83L15.136%2016.58C14.746%2016.96%2014.146%2017.05%2013.686%2016.88L13.416%2016.76C13.006%2016.54%2012.526%2016.2%2011.996%2015.75C11.516%2015.34%2010.996%2014.86%2010.366%2014.24C9.87602%2013.74%209.38602%2013.21%208.87602%2012.62C8.40602%2012.07%208.06602%2011.6%207.85602%2011.21L7.73602%2010.91C7.67602%2010.68%207.65602%2010.55%207.65602%2010.41C7.65602%2010.05%207.78602%209.73%208.03602%209.48L8.78602%208.7C8.98602%208.5%209.13602%208.31%209.23602%208.14C9.31602%208.01%209.34602%207.9%209.34602%207.8C9.34602%207.72%209.31602%207.6%209.26602%207.48C9.19602%207.32%209.08602%207.14%208.94602%206.95L6.62602%203.67C6.52602%203.53%206.40602%203.43%206.25602%203.36C6.09602%203.29%205.92602%203.25%205.75602%203.25ZM14.116%2015.51L13.956%2016.19L14.226%2015.49C14.176%2015.48%2014.136%2015.49%2014.116%2015.51Z'%20fill='white'/%3e%3cpath%20d='M18.666%2010.25C18.256%2010.25%2017.916%209.91%2017.916%209.5C17.916%209.14%2017.556%208.39%2016.956%207.75C16.366%207.12%2015.716%206.75%2015.166%206.75C14.756%206.75%2014.416%206.41%2014.416%206C14.416%205.59%2014.756%205.25%2015.166%205.25C16.136%205.25%2017.156%205.77%2018.046%206.72C18.876%207.61%2019.416%208.7%2019.416%209.5C19.416%209.91%2019.076%2010.25%2018.666%2010.25Z'%20fill='white'/%3e%3cpath%20d='M22.166%2010.25C21.756%2010.25%2021.416%209.91%2021.416%209.5C21.416%206.05%2018.616%203.25%2015.166%203.25C14.756%203.25%2014.416%202.91%2014.416%202.5C14.416%202.09%2014.756%201.75%2015.166%201.75C19.436%201.75%2022.916%205.23%2022.916%209.5C22.916%209.91%2022.576%2010.25%2022.166%2010.25Z'%20fill='white'/%3e%3c/svg%3e" alt="" class="">
+            </div>
+            <div class="w-[113px] h-[69px] space-y-[15px]">
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">ارتباط با ما</p>
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">0912-21326545</p>
+            </div>
+           </di>
+           <div class="desktop:w-[1px] desktop:h-[32px] desktop:bg-[#868686] mobile:hidden desktop:block"></div>
+           <div class="desktop:w-[255px] mobile:w-full h-[69px] flex justify-center gap-x-[16px] items-center">
+            <div class="w-[48px] h-[48px] border-solid border-[1px] border-[#ffff] rounded-[12px] flex justify-center items-center">
+              <img src="data:image/svg+xml,%3csvg%20width='25'%20height='25'%20viewBox='0%200%2025%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.5%2021.75H7.5C3.85%2021.75%201.75%2019.65%201.75%2016V9C1.75%205.35%203.85%203.25%207.5%203.25H17.5C21.15%203.25%2023.25%205.35%2023.25%209V16C23.25%2019.65%2021.15%2021.75%2017.5%2021.75ZM7.5%204.75C4.64%204.75%203.25%206.14%203.25%209V16C3.25%2018.86%204.64%2020.25%207.5%2020.25H17.5C20.36%2020.25%2021.75%2018.86%2021.75%2016V9C21.75%206.14%2020.36%204.75%2017.5%204.75H7.5Z'%20fill='white'/%3e%3cpath%20d='M12.4998%2013.37C11.6598%2013.37%2010.8098%2013.11%2010.1598%2012.58L7.02978%2010.08C6.70978%209.81997%206.64978%209.34997%206.90978%209.02997C7.16978%208.70997%207.63978%208.64997%207.95978%208.90997L11.0898%2011.41C11.8498%2012.02%2013.1398%2012.02%2013.8998%2011.41L17.0298%208.90997C17.3498%208.64997%2017.8298%208.69997%2018.0798%209.02997C18.3398%209.34997%2018.2898%209.82997%2017.9598%2010.08L14.8298%2012.58C14.1898%2013.11%2013.3398%2013.37%2012.4998%2013.37Z'%20fill='white'/%3e%3c/svg%3e" alt="" class="">
+            </div>
+            <div class="w-[113px] h-[69px] space-y-[15px]">
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">ارتباط با ما</p>
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">0912-21326545</p>
+            </div>
+           </div>
+           <div class="w-[1px] h-[32px] bg-[#868686] mobile:hidden desktop:block"></div>
+           <div class="desktop:w-[255px] mobile:w-full h-[69px] flex justify-center gap-x-[16px] items-center">
+            <div class="w-[48px] h-[48px] border-solid border-[1px] border-[#ffff] rounded-[12px] flex justify-center items-center">
+              <img src="data:image/svg+xml,%3csvg%20width='25'%20height='25'%20viewBox='0%200%2025%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.483%2021.9102C16.053%2021.9102%2015.623%2021.8202%2015.273%2021.6502L10.023%2019.0202C9.72305%2018.8702%209.13305%2018.8802%208.84305%2019.0502L6.48305%2020.4002C5.46305%2020.9802%204.41305%2021.0602%203.62305%2020.5902C2.82305%2020.1302%202.37305%2019.1902%202.37305%2018.0102V8.29016C2.37305%207.38016%202.97305%206.35016%203.76305%205.90016L8.09305%203.42016C8.82305%203.00016%209.93305%202.97016%2010.683%203.35016L15.933%205.98016C16.233%206.13016%2016.813%206.11016%2017.113%205.95016L19.463%204.61016C20.483%204.03016%2021.533%203.95016%2022.323%204.42016C23.123%204.88016%2023.573%205.82016%2023.573%207.00016V16.7302C23.573%2017.6402%2022.973%2018.6702%2022.183%2019.1202L17.853%2021.6002C17.473%2021.8002%2016.973%2021.9102%2016.483%2021.9102ZM9.47305%2017.4202C9.90305%2017.4202%2010.333%2017.5102%2010.683%2017.6802L15.933%2020.3102C16.233%2020.4602%2016.813%2020.4402%2017.113%2020.2802L21.443%2017.8002C21.763%2017.6202%2022.073%2017.0802%2022.073%2016.7202V6.99016C22.073%206.36016%2021.893%205.89016%2021.563%205.71016C21.243%205.53016%2020.743%205.60016%2020.203%205.91016L17.853%207.25016C17.123%207.67016%2016.013%207.70016%2015.263%207.32016L10.013%204.69016C9.71305%204.54016%209.13305%204.56016%208.83305%204.72016L4.50305%207.20016C4.18305%207.38016%203.87305%207.92016%203.87305%208.29016V18.0202C3.87305%2018.6502%204.05305%2019.1202%204.37305%2019.3002C4.69305%2019.4902%205.19305%2019.4102%205.74305%2019.1002L8.09305%2017.7602C8.48305%2017.5302%208.98305%2017.4202%209.47305%2017.4202Z'%20fill='white'/%3e%3cpath%20d='M9.39258%2018.25C8.98258%2018.25%208.64258%2017.91%208.64258%2017.5V4.5C8.64258%204.09%208.98258%203.75%209.39258%203.75C9.80258%203.75%2010.1426%204.09%2010.1426%204.5V17.5C10.1426%2017.91%209.80258%2018.25%209.39258%2018.25Z'%20fill='white'/%3e%3cpath%20d='M16.5635%2021.2491C16.1535%2021.2491%2015.8135%2020.9091%2015.8135%2020.4991V7.11914C15.8135%206.70914%2016.1535%206.36914%2016.5635%206.36914C16.9735%206.36914%2017.3135%206.70914%2017.3135%207.11914V20.4991C17.3135%2020.9091%2016.9735%2021.2491%2016.5635%2021.2491Z'%20fill='white'/%3e%3c/svg%3e" alt="" class="">
+            </div>
+            <div class="w-[113px] h-[69px] space-y-[15px] ">
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">ارتباط با ما</p>
+              <p class="font-[estedad-regular] text-[16px] text-[#ffff] text-center">0912-21326545</p>
+            </div>
+           </div>
+          </div>
+          <div class="desktop:w-[1115px] mobile:w-full desktop:h-[168px] mobile:h-auto mt-[16px] mx-auto desktop:flex items-center justify-between">
+           <div class="w-[438px] h-[168px]">
+            <div>
+              <img src="/autorent/assets/logo2-StqxDj56.svg" alt="">
+            </div>
+            <div class="mt-[24px]">
+              <p class="font-[estedad-regular] text-[14px] text-[#ffff]">اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.</p>
+            </div>
+           </div>
+           <div class="desktop:w-[134px] mobile:w-full desktop-[146px] mobile:h-auto block desktop:flex-col mobile:flex mobile:justify-start desktop:space-y-[24px] mobile:gap-x-[20px] mobile:m-[15px]">
+            <a href="#" class="block font-[estedad-medium] text-[14px] text-[#ffff]">دسترسی آسان</a>
+            <a href="#" class="block font-[estedad-medium] text-[14px] text-[#ffff]">سوالات متداول</a> 
+            <a href="#" class="block font-[estedad-medium] text-[14px] text-[#ffff]">تماس با ما</a>
+            <a href="#" class="block font-[estedad-medium] text-[14px] text-[#ffff]">درباره ما</a>
+           </div>
+           <div class="desktop:w-[320px] mobile:w-full desktop:h-[80px] mobile:h-auto">
+            <p class="font-[estedad-semibold] text-[16px] text-[#ffff]">خبرنامه</p>
+            <div class="w-[320px] h-[40px] p-[4px] mt-[12px] border-solid border-[1px] border-[#868686] rounded-[6px] flex justify-between items-center">
+              <p class="font-[estedad-regular] text-[12px] text-[#C2C2C2] text-center" >ایمیل خود را وارد کنید</p>
+              <a href="#" class="w-[66px] h-[32px] bg-[#FDB713] rounded-[6px] font-[estedad-semibold] text-[14px] flex justify-center items-center">ارسال</a>
+            </div>
+           </div>
+          </div>
+          <div class="desktop:w-[1115px] mobile:w-full h-[49px] mx-auto mt-[18px] flex justify-center desktop:items-end mobile:items-center border-solid border-t-[1px] border-[#9A9A9A]">
+            <img src="data:image/svg+xml,%3csvg%20width='25'%20height='25'%20viewBox='0%200%2025%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.5%2023.25C6.57%2023.25%201.75%2018.43%201.75%2012.5C1.75%206.57%206.57%201.75%2012.5%201.75C18.43%201.75%2023.25%206.57%2023.25%2012.5C23.25%2018.43%2018.43%2023.25%2012.5%2023.25ZM12.5%203.25C7.4%203.25%203.25%207.4%203.25%2012.5C3.25%2017.6%207.4%2021.75%2012.5%2021.75C17.6%2021.75%2021.75%2017.6%2021.75%2012.5C21.75%207.4%2017.6%203.25%2012.5%203.25Z'%20fill='%239A9A9A'/%3e%3cpath%20d='M9.49011%2016.1209C7.49011%2016.1209%205.87012%2014.5009%205.87012%2012.5009C5.87012%2010.5009%207.49011%208.88086%209.49011%208.88086C10.3701%208.88086%2011.2101%209.20088%2011.8801%209.78088C12.1901%2010.0509%2012.2201%2010.5309%2011.9501%2010.8409C11.6801%2011.1509%2011.2001%2011.1808%2010.8901%2010.9108C10.5001%2010.5708%2010.0101%2010.3809%209.49011%2010.3809C8.32011%2010.3809%207.37012%2011.3309%207.37012%2012.5009C7.37012%2013.6709%208.32011%2014.6209%209.49011%2014.6209C10.0001%2014.6209%2010.5001%2014.4309%2010.8901%2014.0909C11.2001%2013.8209%2011.6701%2013.8508%2011.9501%2014.1608C12.2201%2014.4708%2012.1901%2014.9508%2011.8801%2015.2208C11.2101%2015.8008%2010.3601%2016.1209%209.49011%2016.1209Z'%20fill='%239A9A9A'/%3e%3cpath%20d='M16.4901%2016.1209C14.4901%2016.1209%2012.8701%2014.5009%2012.8701%2012.5009C12.8701%2010.5009%2014.4901%208.88086%2016.4901%208.88086C17.3701%208.88086%2018.2101%209.20088%2018.8801%209.78088C19.1901%2010.0509%2019.2201%2010.5309%2018.9501%2010.8409C18.6801%2011.1509%2018.2001%2011.1808%2017.8901%2010.9108C17.5001%2010.5708%2017.0101%2010.3809%2016.4901%2010.3809C15.3201%2010.3809%2014.3701%2011.3309%2014.3701%2012.5009C14.3701%2013.6709%2015.3201%2014.6209%2016.4901%2014.6209C17.0001%2014.6209%2017.5001%2014.4309%2017.8901%2014.0909C18.2001%2013.8209%2018.6701%2013.8508%2018.9501%2014.1608C19.2201%2014.4708%2019.1901%2014.9508%2018.8801%2015.2208C18.2101%2015.8008%2017.3601%2016.1209%2016.4901%2016.1209Z'%20fill='%239A9A9A'/%3e%3c/svg%3e" alt="" class="w-[24px] h-[24px]">
+           <p class="font-[estedad-regular] text-[#9A9A9A] text-[14px]">تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</p>
+          </div>
+     
+      </div>
+    </div>
+          <!--#endregion-->
+  </body>
+</html>
