@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "./setting.css";
+@theme {
+    --breakpoint-desktop:1024px;
+    --breakpoint-mobile:340px;
+}
+html, body {
+    overflow-x: hidden;
+  }
+#hamburger-menu-open:checked ~ .hamburger{
+  display: block;
+  
+}
+#hamburger-menu-close:checked ~ .hamburger{
+  display:none;
+  
+}
