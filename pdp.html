@@ -20,7 +20,7 @@
      </div>
      
      <input type="checkbox" id="hamburger-menu-open" class="hidden">
-      <label for="hamburger-menu-open" class="w-[30px] h-[30px] bg-[#ebeaea] rounded-[8px] p-[3px] flex flex-col items-center justify-center gap-y-[4px] cursor-pointer desktop:hidden ">
+      <label for="hamburger-menu-open" class="w-[30px] h-[30px] bg-[#ebeaea] rounded-[8px] p-[3px] flex flex-col items-center justify-center gap-y-[4px] cursor-pointer desktop:hidden grey">
        <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
        <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
        <div class="w-[15px] h-[2px] bg-[#2b2b2b] "></div>
@@ -28,7 +28,7 @@
      
    <div class="w-[230px] h-full z-2 absolute top-0 right-0 bg-[#f4f4f4] hidden hamburger space-y-[50px] m-auto pt-[90px]">
      <input type="checkbox" id="hamburger-menu-close" class="hidden">
-     <label for="hamburger-menu-close" class="w-[20px] h-[20px] cursor-pointer">
+     <label for="hamburger-menu-close" class="close w-[20px] h-[20px] cursor-pointer">
      <img src="./src/images/cross.svg" alt="" class="w-[20px] h-[20px] mb-[60px] mr-[180px]">
      </label>
 
@@ -709,6 +709,19 @@
             },
           });
         </script>
+            <script>
+              let hamburger =document.querySelector(".hamburger")
+              let grey =document.querySelector(".grey")
+              grey.addEventListener("click",function(){
+                hamburger.style.display ="block" 
+                
+              })
+              let close =document.querySelector(".close")
+            close.addEventListener("click",function(){
+            hamburger.style.display ="none" 
+            })
+              
+            </script>
    
 
 </body>
