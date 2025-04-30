@@ -338,6 +338,9 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .\!h-\[40px\] {
     height: 40px !important;
   }
@@ -794,6 +797,9 @@
   .w-full {
     width: 100%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .scale-130 {
     --tw-scale-x: 130%;
     --tw-scale-y: 130%;
@@ -1137,6 +1143,9 @@
   .bg-\[\#ffff\] {
     background-color: #ffff;
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-black\/60 {
     background-color: color-mix(in srgb, #000 60%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1151,6 +1160,9 @@
   }
   .bg-\[url\(\.\.\/images\/image-2\.png\)\] {
     background-image: url(../images/image-2.png);
+  }
+  .bg-\[url\(\.\.\/images\/image-5\.jpg\)\] {
+    background-image: url(../images/image-5.jpg);
   }
   .bg-\[url\(\/src\/images\/image-5\.jpg\)\] {
     background-image: url(/src/images/image-5.jpg);
@@ -1398,6 +1410,9 @@
   .text-\[\#ffff\] {
     color: #ffff;
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .opacity-50 {
     opacity: 50%;
   }
@@ -1414,6 +1429,10 @@
   .shadow-md {
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .blur {
     --tw-blur: blur(8px);
@@ -2838,6 +2857,11 @@ html, body {
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -2920,6 +2944,7 @@ html, body {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
