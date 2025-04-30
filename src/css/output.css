@@ -1164,6 +1164,9 @@
   .bg-\[url\(\.\.\/images\/image-5\.jpg\)\] {
     background-image: url(../images/image-5.jpg);
   }
+  .bg-\[url\(\/images\/image-5\.jpg\)\] {
+    background-image: url(/images/image-5.jpg);
+  }
   .bg-\[url\(\/src\/images\/image-5\.jpg\)\] {
     background-image: url(/src/images/image-5.jpg);
   }
